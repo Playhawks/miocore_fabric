@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "models":  "miocore:block/nickel_block"
+    }
+  }
+}

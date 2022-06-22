@@ -1,0 +1,9 @@
+{
+  "item.miocore.raw_nickel": "Raw Nickel",
+  "item.miocore.nickel_ingot": "Nickel Ingot",
+  "item.miocore.nickel_nugget": "Nickel Nugget",
+
+  "block.miocore.nickel_block": "Nickel Block",
+  "block.miocore.nickel_ore": "Nickel Ore",
+  "block.miocore.deepslate_nickel_ore": "Deepslate Nickel Ore"
+}

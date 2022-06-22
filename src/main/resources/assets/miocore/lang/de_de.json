@@ -1,0 +1,9 @@
+{
+  "item.miocore.raw_nickel": "Rohnickel",
+  "item.miocore.nickel_ingot": "Nickelbarren",
+  "item.miocore.nickel_nugget": "Nickelklumpen",
+
+  "block.miocore.nickel_block": "Nickelblock",
+  "block.miocore.nickel_ore": "Nickelerz",
+  "block.miocore.deepslate_nickel_ore": "Tiefenschiefer-Nickelerz"
+}
