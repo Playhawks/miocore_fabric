@@ -2,8 +2,20 @@
   "item.miocore.raw_nickel": "Rohnickel",
   "item.miocore.nickel_ingot": "Nickelbarren",
   "item.miocore.nickel_nugget": "Nickelklumpen",
+  "item.miocore.raw_blei": "Rohblei",
+  "item.miocore.blei_ingot": "Bleibarren",
+  "item.miocore.blei_nugget": "Bleiklumpen",
+  "item.miocore.raw_aluminium": "Rohaluminium",
+  "item.miocore.aluminium_ingot": "Aluminiumbarren",
+  "item.miocore.aluminium_nugget": "Aluminiumklumpen",
 
   "block.miocore.nickel_block": "Nickelblock",
   "block.miocore.nickel_ore": "Nickelerz",
-  "block.miocore.deepslate_nickel_ore": "Tiefenschiefer-Nickelerz"
+  "block.miocore.deepslate_nickel_ore": "Tiefenschiefer-Nickelerz",
+  "block.miocore.blei_block": "Bleiblock",
+  "block.miocore.blei_ore": "Bleierz",
+  "block.miocore.deepslate_blei_ore": "Tiefenschiefer-Bleierz",
+  "block.miocore.aluminium_block": "Aluminiumblock",
+  "block.miocore.aluminium_ore": "Aluminiumerz",
+  "block.miocore.deepslate_aluminium_ore": "Tiefenschiefer-Aluminiumerz"
 }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model":  "miocore:block/aluminium_block"
+    }
+  }
+}

@@ -19,6 +19,18 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MISC);
     public static final Block DEEPSLATE_NICKEL_ORE = registerBlock("deepslate_nickel_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MISC);
+    public static final Block BLEI_BLOCK = registerBlock("blei_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
+    public static final Block BLEI_ORE = registerBlock("blei_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MISC);
+    public static final Block DEEPSLATE_BLEI_ORE = registerBlock("deepslate_blei_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MISC);
+    public static final Block ALUMINIUM_BLOCK = registerBlock("aluminium_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
+    public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MISC);
+    public static final Block DEEPSLATE_ALUMINIUM_ORE = registerBlock("deepslate_aluminium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MISC);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
