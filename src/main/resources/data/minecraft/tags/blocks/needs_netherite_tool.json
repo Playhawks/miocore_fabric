@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "miocore:nether_ardite_ore",
+    "miocore:ardite_block",
+    "miocore:nether_osmium_ore",
+    "miocore:osmium_block"
+  ]
+}

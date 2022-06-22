@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "miocore:ardite_ingot"
+    }
+  ],
+  "result": {
+    "item": "miocore:ardite_nugget",
+    "count": 9
+  }
+}

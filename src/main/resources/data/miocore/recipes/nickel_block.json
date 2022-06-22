@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "miocore:nickel_ingot"
+    }
+  },
+  "result": {
+    "item": "miocore:nickel_block"
+  }
+}

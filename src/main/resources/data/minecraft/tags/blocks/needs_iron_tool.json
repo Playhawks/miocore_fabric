@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "miocore:nickel_ore",
+    "miocore:deepslate_nickel_ore",
+    "miocore:nickel_block",
+    "miocore:blei_ore",
+    "miocore:deepslate_blei_ore",
+    "miocore:blei_block",
+    "miocore:aluminium_ore",
+    "miocore:deepslate_aluminium_ore",
+    "miocore:aluminium_block"
+  ]
+}

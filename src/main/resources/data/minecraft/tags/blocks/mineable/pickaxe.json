@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "miocore:aluminium_ore",
+    "miocore:aluminium_block",
+    "miocore:deepslate_aluminium_ore",
+    "miocore:nickel_ore",
+    "miocore:deepslate_nickel_ore",
+    "miocore:nickel_block",
+    "miocore:blei_ore",
+    "miocore:deepslate_blei_ore",
+    "miocore:blei_block",
+    "miocore:platin_ore",
+    "miocore:deepslate_platin_ore",
+    "miocore:platin_block",
+    "miocore:silver_ore",
+    "miocore:deepslate_silver_ore",
+    "miocore:silver_block",
+    "miocore:uran_ore",
+    "miocore:deepslate_uran_ore",
+    "miocore:ardite_block",
+    "miocore:nether_ardite_ore",
+    "miocore:osmium_block",
+    "miocore:nether_osmium_ore"
+  ]
+}

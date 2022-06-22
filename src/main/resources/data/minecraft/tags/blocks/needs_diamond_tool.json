@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "miocore:uran_ore",
+    "miocore:deepslate_uran_ore",
+    "miocore:silver_block",
+    "miocore:deepslate_silver_ore",
+    "miocore:silver_ore",
+    "miocore:platin_block",
+    "miocore:platin_ore",
+    "miocore:deepslate_platin_ore"
+  ]
+}
