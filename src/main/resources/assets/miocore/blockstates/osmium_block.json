@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model":  "miocore:block/osmium_block"
+    }
+  }
+}

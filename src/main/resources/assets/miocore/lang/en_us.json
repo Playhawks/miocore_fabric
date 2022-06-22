@@ -11,6 +11,17 @@
   "item.miocore.raw_platin": "Raw Platin",
   "item.miocore.platin_ingot": "Platin Ingot",
   "item.miocore.platin_nugget": "Platin Nugget",
+  "item.miocore.raw_silver": "Raw Silver",
+  "item.miocore.silver_ingot": "Silver Ingot",
+  "item.miocore.silver_nugget": "Silver Nugget",
+  "item.miocore.raw_ardite": "Raw Ardite",
+  "item.miocore.ardite_ingot": "Ardite Ingot",
+  "item.miocore.ardite_nugget": "Ardite Nugget",
+  "item.miocore.raw_osmium": "Raw Osmium",
+  "item.miocore.osmium_ingot": "Osmium Ingot",
+  "item.miocore.osmium_nugget": "Osmium Nugget",
+  "item.miocore.raw_uran": "Raw Uran",
+  "item.miocore.uran_ingot": "Uran Ingot",
 
   "block.miocore.nickel_block": "Block of Nickel",
   "block.miocore.nickel_ore": "Nickel Ore",
@@ -24,6 +35,15 @@
   "block.miocore.platin_block": "Block of Platin",
   "block.miocore.platin_ore": "Platin Ore",
   "block.miocore.deepslate_platin_ore": "Deepslate Platin Ore",
+  "block.miocore.silver_block": "Block of Silver",
+  "block.miocore.silver_ore": "SIlver Ore",
+  "block.miocore.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.miocore.ardite_block": "Block of Ardite",
+  "block.miocore.nethere_ardite_ore": "Nether Ardite Ore",
+  "block.miocore.osmium_block": "Block of Osmium",
+  "block.miocore.nether_osmium_ore": "Nether Osmium Ore",
+  "block.miocore.uran_ore": "Uran Ore",
+  "block.miocore.deepslate_uran_ore": "Deepslate Uran Ore",
 
   "itemGroup.miocore.mio": "Mio Core"
 }

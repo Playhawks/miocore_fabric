@@ -12,6 +12,19 @@
   "item.miocore.platin_ingot": "Platinbarren",
   "item.miocore.platin_nugget": "Platinklumpen",
 
+  "item.miocore.raw_silver": "RohSilber",
+  "item.miocore.silver_ingot": "Silberbarren",
+  "item.miocore.silver_nugget": "Silberklumpen",
+  "item.miocore.raw_ardite": "Rohardite",
+  "item.miocore.ardite_ingot": "Arditebarren",
+  "item.miocore.ardite_nugget": "Arditeklumpen",
+  "item.miocore.raw_osmium": "Rohosmium",
+  "item.miocore.osmium_ingot": "Osmiumbarren",
+  "item.miocore.osmium_nugget": "Osmiumklumpen",
+  "item.miocore.raw_uran": "Rohuran",
+  "item.miocore.uran_ingot": "Uranbarren",
+
+
   "block.miocore.nickel_block": "Nickelblock",
   "block.miocore.nickel_ore": "Nickelerz",
   "block.miocore.deepslate_nickel_ore": "Tiefenschiefer-Nickelerz",
@@ -24,6 +37,15 @@
   "block.miocore.platin_block": "Platinblock",
   "block.miocore.platin_ore": "Platinerz",
   "block.miocore.deepslate_platin_ore": "Tiefenschiefer-Platinerz",
+  "block.miocore.silver_block": "Silberblock",
+  "block.miocore.silver_ore": "SIlvererz",
+  "block.miocore.deepslate_silver_ore": "Tiefenschiefer-Silbererz",
+  "block.miocore.ardite_block": "Arditeblock",
+  "block.miocore.nethere_ardite_ore": "Nether-Arditeerz",
+  "block.miocore.osmium_block": "Osmiumblock",
+  "block.miocore.nether_osmium_ore": "Nether-Osmiumerz",
+  "block.miocore.uran_ore": "Uranerz",
+  "block.miocore.deepslate_uran_ore": "Tiefenschiefer-Uranerz",
 
   "itemGroup.miocore.mio": "Mio Core"
 }
