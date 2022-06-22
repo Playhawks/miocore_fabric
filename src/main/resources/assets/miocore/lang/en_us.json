@@ -8,14 +8,22 @@
   "item.miocore.raw_aluminium": "Raw Aluminium",
   "item.miocore.aluminium_ingot": "Aluminium Ingot",
   "item.miocore.aluminium_nugget": "Aluminium Nugget",
+  "item.miocore.raw_platin": "Raw Platin",
+  "item.miocore.platin_ingot": "Platin Ingot",
+  "item.miocore.platin_nugget": "Platin Nugget",
 
-  "block.miocore.nickel_block": "Nickel Block",
+  "block.miocore.nickel_block": "Block of Nickel",
   "block.miocore.nickel_ore": "Nickel Ore",
   "block.miocore.deepslate_nickel_ore": "Deepslate Nickel Ore",
-  "block.miocore.blei_block": "Blei Block",
+  "block.miocore.blei_block": "Block of Blei",
   "block.miocore.blei_ore": "Blei Ore",
   "block.miocore.deepslate_blei_ore": "Deepslate Blei Ore",
-  "block.miocore.aluminium_block": "Aluminium Block",
+  "block.miocore.aluminium_block": "Block of Aluminium",
   "block.miocore.aluminium_ore": "Aluminium Ore",
-  "block.miocore.deepslate_aluminium_ore": "Deepslate Aluminium Ore"
+  "block.miocore.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
+  "block.miocore.platin_block": "Block of Platin",
+  "block.miocore.platin_ore": "Platin Ore",
+  "block.miocore.deepslate_platin_ore": "Deepslate Platin Ore",
+
+  "itemGroup.miocore.mio": "Mio Core"
 }

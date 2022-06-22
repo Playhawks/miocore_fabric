@@ -8,6 +8,9 @@
   "item.miocore.raw_aluminium": "Rohaluminium",
   "item.miocore.aluminium_ingot": "Aluminiumbarren",
   "item.miocore.aluminium_nugget": "Aluminiumklumpen",
+  "item.miocore.raw_platin": "Rohplatin",
+  "item.miocore.platin_ingot": "Platinbarren",
+  "item.miocore.platin_nugget": "Platinklumpen",
 
   "block.miocore.nickel_block": "Nickelblock",
   "block.miocore.nickel_ore": "Nickelerz",
@@ -17,5 +20,10 @@
   "block.miocore.deepslate_blei_ore": "Tiefenschiefer-Bleierz",
   "block.miocore.aluminium_block": "Aluminiumblock",
   "block.miocore.aluminium_ore": "Aluminiumerz",
-  "block.miocore.deepslate_aluminium_ore": "Tiefenschiefer-Aluminiumerz"
+  "block.miocore.deepslate_aluminium_ore": "Tiefenschiefer-Aluminiumerz",
+  "block.miocore.platin_block": "Platinblock",
+  "block.miocore.platin_ore": "Platinerz",
+  "block.miocore.deepslate_platin_ore": "Tiefenschiefer-Platinerz",
+
+  "itemGroup.miocore.mio": "Mio Core"
 }
