@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "models":  "miocore:block/nickel_ore" }
+    "": { "model":  "miocore:block/nickel_ore" }
   }
 }
