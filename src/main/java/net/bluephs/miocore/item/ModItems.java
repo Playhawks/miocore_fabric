@@ -54,6 +54,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
     public static final Item URAN_INGOT = registerItem("uran_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
+    public static final Item ENHANCED_BONE_MEAL = registerItem("enhanced_bone_meal",
+            new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MioCore.MOD_ID, name), item);
