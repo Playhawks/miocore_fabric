@@ -1,9 +1,9 @@
 package net.bluephs.miocore.block;
 
-import net.bluephs.miocore.MioCore;
-import net.bluephs.miocore.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.bluephs.miocore.MioCore;
+import net.bluephs.miocore.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -56,6 +56,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block DEEPSLATE_URAN_ORE = registerBlock("deepslate_uran_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
