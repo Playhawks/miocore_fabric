@@ -51,7 +51,7 @@ public class ModBlocks {
     public static final Block OSMIUM_BLOCK = registerBlock("osmium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
     public static final Block NETHER_OSMIUM_ORE = registerBlock("nether_osmium_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);;
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block URAN_ORE = registerBlock("uran_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block DEEPSLATE_URAN_ORE = registerBlock("deepslate_uran_ore",
