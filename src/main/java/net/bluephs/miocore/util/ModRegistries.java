@@ -13,6 +13,6 @@ public class ModRegistries {
         MioCore.LOGGER.info("Registering Fuels for " + MioCore.MOD_ID);
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
-        registry.add(ModItems.ENHANCED_BONE_MEAL, 200);
+        registry.add(ModItems.ENHANCED_BONE_MEAL, 6400);
     }
 }
