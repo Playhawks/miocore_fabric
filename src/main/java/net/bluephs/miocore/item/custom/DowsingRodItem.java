@@ -59,7 +59,7 @@ public class DowsingRodItem extends Item {
         player.sendMessage(new LiteralText("Found "
                 + blockBelow.asItem().getName().getString()
                 + " at " +
-                "(" + blockPos.getX() + " x, " + blockPos.getY() + " y, " + blockPos.getZ() + " z)"), false);
+                "(x= " + blockPos.getX() + ", y=" + blockPos.getY() + ", z= " + blockPos.getZ() + ")"), false);
     }
 
     private boolean isValuableBlock(Block block) {
