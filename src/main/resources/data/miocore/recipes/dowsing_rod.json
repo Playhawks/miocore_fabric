@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    "YZX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "miocore:nickel_ingot"
+    },
+    "Y": {
+      "item": "miocore:blei_ingot"
+    },
+    "Z": {
+      "item": "minecraft:iron_ingot"
+    }
+},
+  "result": {
+    "item": "miocore:dowsing_rod"
+  }
+}

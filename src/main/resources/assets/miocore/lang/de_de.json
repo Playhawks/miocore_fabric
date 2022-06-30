@@ -23,7 +23,7 @@
   "item.miocore.raw_uran": "Rohuran",
   "item.miocore.uran_ingot": "Uranbarren",
   "item.miocore.enhanced_bone_meal": "Verbessertes Knochenmehl",
-
+  "item.miocore.dowsing_rod": "Wünschelrute",
 
   "block.miocore.nickel_block": "Nickelblock",
   "block.miocore.nickel_ore": "Nickelerz",
@@ -46,6 +46,10 @@
   "block.miocore.nether_osmium_ore": "Nether-Osmiumerz",
   "block.miocore.uran_ore": "Uranerz",
   "block.miocore.deepslate_uran_ore": "Tiefenschiefer-Uranerz",
+
+  "item.miocore.dowsing_rod.no_valuables": "Keine wertvollen Mineralien gefunden!",
+  "item.miocore.dowsing_rod.found": "Gefundene/s ",
+  "item.miocore.dowsing_rod.found_at": " bei ",
 
   "itemGroup.miocore.mio": "Mio-Core"
 }

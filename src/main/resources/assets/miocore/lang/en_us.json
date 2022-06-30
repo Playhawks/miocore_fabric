@@ -23,6 +23,7 @@
   "item.miocore.raw_uran": "Raw Uran",
   "item.miocore.uran_ingot": "Uran Ingot",
   "item.miocore.enhanced_bone_meal": "Enhanced Bone Meal",
+  "item.miocore.dowsing_rod": "Dowsing Rod",
 
   "block.miocore.nickel_block": "Block of Nickel",
   "block.miocore.nickel_ore": "Nickel Ore",
@@ -45,6 +46,10 @@
   "block.miocore.nether_osmium_ore": "Nether Osmium Ore",
   "block.miocore.uran_ore": "Uran Ore",
   "block.miocore.deepslate_uran_ore": "Deepslate Uran Ore",
+
+  "item.miocore.dowsing_rod.no_valuables": "No valuables found",
+  "item.miocore.dowsing_rod.found": "Found ",
+  "item.miocore.dowsing_rod.found_at": " at ",
 
   "itemGroup.miocore.mio": "Mio Core"
 }
