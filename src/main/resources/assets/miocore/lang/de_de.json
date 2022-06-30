@@ -50,6 +50,8 @@
   "item.miocore.dowsing_rod.no_valuables": "Keine wertvollen Mineralien gefunden!",
   "item.miocore.dowsing_rod.found": "Gefundene/s ",
   "item.miocore.dowsing_rod.found_at": " bei ",
+  "item.miocore.dowsing_rod.tooltip.shift": "Rechtsklick um Mineralien zu finden",
+  "item.miocore.dowsing_rod.tooltip": "Drücke §eSHIFT§r für mehr Informationen",
 
   "itemGroup.miocore.mio": "Mio-Core"
 }

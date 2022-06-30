@@ -50,6 +50,8 @@
   "item.miocore.dowsing_rod.no_valuables": "No valuables found",
   "item.miocore.dowsing_rod.found": "Found ",
   "item.miocore.dowsing_rod.found_at": " at ",
+  "item.miocore.dowsing_rod.tooltip.shift": "Right Click to find valuables",
+  "item.miocore.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
 
   "itemGroup.miocore.mio": "Mio Core"
 }
