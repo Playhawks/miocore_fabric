@@ -58,7 +58,7 @@ public class ModItems {
     public static final Item ENHANCED_BONE_MEAL = registerItem("enhanced_bone_meal",
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
-            new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.Mio).maxDamage(16)));
+            new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.Mio).maxDamage(1250)));
 
 
     private static Item registerItem(String name, Item item) {
