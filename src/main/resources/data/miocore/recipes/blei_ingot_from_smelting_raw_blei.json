@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "miocore:raw_blei"
-  },
-  "result": "miocore:blei_ingot",
-  "experience": 0.7,
-  "cookingtime": 200
-}

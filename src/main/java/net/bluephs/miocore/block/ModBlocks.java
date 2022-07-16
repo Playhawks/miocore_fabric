@@ -1,10 +1,13 @@
 package net.bluephs.miocore.block;
 
+import net.bluephs.miocore.block.custon.ModWoodButtonBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.bluephs.miocore.MioCore;
 import net.bluephs.miocore.item.ModItemGroup;
 import net.minecraft.block.Block;
+import net.minecraft.block.FenceBlock;
+import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.Material;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
@@ -28,11 +31,11 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block DEEPSLATE_NICKEL_ORE = registerBlock("deepslate_nickel_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
-    public static final Block BLEI_BLOCK = registerBlock("blei_block",
+    public static final Block LEAD_BLOCK = registerBlock("lead_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
-    public static final Block BLEI_ORE = registerBlock("blei_ore",
+    public static final Block LEAD_ORE = registerBlock("lead_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
-    public static final Block DEEPSLATE_BLEI_ORE = registerBlock("deepslate_blei_ore",
+    public static final Block DEEPSLATE_LEAD_ORE = registerBlock("deepslate_lead_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block ALUMINIUM_BLOCK = registerBlock("aluminium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
@@ -54,16 +57,38 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block ARDITE_BLOCK = registerBlock("ardite_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
-    public static final Block NETHER_ARDITE_ORE = registerBlock("nether_ardite_ore",
+    public static final Block NETHERRACK_ARDITE_ORE = registerBlock("netherrack_ardite_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block OSMIUM_BLOCK = registerBlock("osmium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
-    public static final Block NETHER_OSMIUM_ORE = registerBlock("nether_osmium_ore",
+    public static final Block NETHERRACK_OSMIUM_ORE = registerBlock("netherrack_osmium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block URAN_ORE = registerBlock("uran_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block DEEPSLATE_URAN_ORE = registerBlock("deepslate_uran_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+
+    public static final Block MAHAGONI_BUTTON = registerBlock("mahagoni_button",
+            new ModWoodButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().noCollision()), ModItemGroup.Mio);
+    public static final Block ESCHEN_BUTTON = registerBlock("eschen_button",
+            new ModWoodButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().noCollision()), ModItemGroup.Mio);
+    public static final Block KIRSCHBAUM_BUTTON = registerBlock("kirschbaum_button",
+            new ModWoodButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().noCollision()), ModItemGroup.Mio);
+
+    public static final Block MAHAGONI_FENCE = registerBlock("mahagoni_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+    public static final Block MAHAGONI_FENCE_GATE = registerBlock("mahagoni_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+
+    public static final Block ESCHEN_FENCE = registerBlock("eschen_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+    public static final Block ESCHEN_FENCE_GATE = registerBlock("eschen_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+
+    public static final Block KIRSCHBAUM_FENCE = registerBlock("kirschbaum_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+    public static final Block KIRSCHBAUM_FENCE_GATE = registerBlock("kirschbaum_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey){
         registerBlockItem(name, block, group, tooltipKey);

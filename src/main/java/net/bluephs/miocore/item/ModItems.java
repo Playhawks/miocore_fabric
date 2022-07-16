@@ -15,11 +15,11 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
     public static final Item NICKEL_NUGGET = registerItem("nickel_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
-    public static final Item RAW_BLEI = registerItem("raw_blei",
+    public static final Item RAW_LEAD = registerItem("raw_lead",
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
-    public static final Item BLEI_INGOT = registerItem("blei_ingot",
+    public static final Item LEAD_INGOT = registerItem("lead_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
-    public static final Item BLEI_NUGGET = registerItem("blei_nugget",
+    public static final Item LEAD_NUGGET = registerItem("lead_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
     public static final Item RAW_ALUMINIUM = registerItem("raw_aluminium",
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));

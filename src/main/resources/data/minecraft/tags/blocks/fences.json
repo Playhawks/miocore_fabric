@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    "miocore:mahagoni_button",
-    "miocore:eschen_button",
-    "miocore:kirschbaum_button",
     "miocore:mahagoni_fence",
     "miocore:mahagoni_fence_gate",
     "miocore:eschen_fence",
