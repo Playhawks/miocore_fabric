@@ -24,6 +24,9 @@
   "item.miocore.uran_ingot": "Uran Ingot",
   "item.miocore.enhanced_bone_meal": "Enhanced Bone Meal",
   "item.miocore.dowsing_rod": "Dowsing Rod",
+  "item.miocore.mahagony_coal": "Mahagony Coal",
+  "item.miocore.ash_tree_coal": "Ash Tree Coal",
+  "item.miocore.cherry_tree_coal": "Cherry Tree Coal",
 
   "block.miocore.nickel_block": "Block of Nickel",
   "block.miocore.nickel_ore": "Nickel Ore",
@@ -63,10 +66,15 @@
   "block.miocore.mahagony_stairs": "Mahagony Stairs",
   "block.miocore.mahagony_door": "Mahagony Door",
   "block.miocore.mahagony_trapdoor": "Mahagony Trapdoor",
+  "block.miocore.mahagony_log": "Mahagony Log",
+  "block.miocore.mahagony_wood": "Mahagony Wood",
+  "block.miocore.mahagony_planks": "Mahagony Planks",
   "block.miocore.ash_tree_fence": "Ash Tree Fence",
   "block.miocore.ash_tree_fence_gate": "Ash Tree Fence Gate",
   "block.miocore.cherry_tree_fence": "Cherry Tree Fence",
   "block.miocore.cherry_tree_fence_gate": "Cherry Tree Fence Gate",
+  "block.miocore.mahagony_leaves": "Mahagony Leaves",
+  "block.miocore.mahagony_sapling": "Mahagony Sapling",
 
   "itemGroup.miocore.mio": "Mio Core"
 }

@@ -1,9 +1,7 @@
 package net.bluephs.miocore.block;
 
-import net.bluephs.miocore.block.custon.ModDoorBlock;
-import net.bluephs.miocore.block.custon.ModStairsBlock;
-import net.bluephs.miocore.block.custon.ModTrapdoorBlock;
-import net.bluephs.miocore.block.custon.ModWoodButtonBlock;
+import net.bluephs.miocore.block.custon.*;
+import net.bluephs.miocore.world.feature.tree.MahagonySaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.bluephs.miocore.MioCore;
@@ -82,15 +80,24 @@ public class ModBlocks {
             new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block MAHAGONY_FENCE_GATE = registerBlock("mahagony_fence_gate",
             new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
-
     public static final Block MAHAGONY_SLAB = registerBlock("mahagony_slab",
             new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+    public static final Block MAHAGONY_PLANKS = registerBlock("mahagony_planks",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block MAHAGONY_STAIRS = registerBlock("mahagony_stairs",
-            new ModStairsBlock(ModBlocks.NICKEL_BLOCK.getDefaultState(),FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new ModStairsBlock(ModBlocks.MAHAGONY_PLANKS.getDefaultState(), FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+    public static final Block MAHAGONY_LOG = registerBlock("mahagony_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+    public static final Block MAHAGONY_WOOD = registerBlock("mahagony_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block MAHAGONY_DOOR = registerBlock("mahagony_door",
             new ModDoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().nonOpaque()), ModItemGroup.Mio);
     public static final Block MAHAGONY_TRAPDOOR = registerBlock("mahagony_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().nonOpaque()), ModItemGroup.Mio);
+    public static final Block MAHAGONY_LEAVES = registerBlock("mahagony_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.Mio);
+    public static final Block MAHAGONY_SAPLING = registerBlock("mahagony_sapling",
+            new ModSaplingBlock(new MahagonySaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.Mio);
 
 
     public static final Block ASH_TREE_BUTTON = registerBlock("ash_tree_button",
@@ -107,6 +114,7 @@ public class ModBlocks {
             new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_FENCE_GATE = registerBlock("cherry_tree_fence_gate",
             new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey){
         registerBlockItem(name, block, group, tooltipKey);

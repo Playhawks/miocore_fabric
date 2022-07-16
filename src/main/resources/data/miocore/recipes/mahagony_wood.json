@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "miocore:mahagony_log"
+    }
+  },
+  "result": {
+    "item": "miocore:mahagony_wood",
+    "count": 3
+  }
+}

@@ -68,6 +68,13 @@ public class ModItems {
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
             new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.Mio).maxDamage(1250)));
 
+    public static final Item MAHAGONY_COAL = registerItem("mahagony_coal",
+            new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
+    public static final Item ASH_TREE_COAL = registerItem("ash_tree_coal",
+            new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
+    public static final Item CHERRY_TREE_COAL = registerItem("cherry_tree_coal",
+            new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MioCore.MOD_ID, name), item);

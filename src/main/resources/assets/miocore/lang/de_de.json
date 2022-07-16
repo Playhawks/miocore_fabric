@@ -24,6 +24,9 @@
   "item.miocore.uran_ingot": "Uranbarren",
   "item.miocore.enhanced_bone_meal": "Verbessertes Knochenmehl",
   "item.miocore.dowsing_rod": "Wünschelrute",
+  "item.miocore.mahagony_coal": "Mahagonikohle",
+  "item.miocore.ash_tree_coal": "Eschenkohle",
+  "item.miocore.cherry_tree_coal": "Kirschbaumkohle",
 
   "block.miocore.nickel_block": "Nickelblock",
   "block.miocore.nickel_ore": "Nickelerz",
@@ -63,10 +66,15 @@
   "block.miocore.mahagony_stairs": "Mahagonitreppe",
   "block.miocore.mahagony_door": "Mahagonitür",
   "block.miocore.mahagony_trapdoor": "Mahagonifalltür",
+  "block.miocore.mahagony_log": "Mahagonistamm",
+  "block.miocore.mahagony_wood": "Mahagoniholz",
+  "block.miocore.mahagony_planks": "Mahagonibretter",
   "block.miocore.ash_tree_fence": "Eschenzaun",
   "block.miocore.ash_tree_fence_gate": "Eschenzauntür",
   "block.miocore.cherry_tree_fence": "Kirschbaumzaun",
   "block.miocore.cherry_tree_fence_gate": "Kirschbaumzauntür",
+  "block.miocore.mahagony_leaves": "Mahagoniblätter",
+  "block.miocore.mahagony_sapling": "Mahagonisetzling",
 
   "itemGroup.miocore.mio": "Mio-Core"
 }

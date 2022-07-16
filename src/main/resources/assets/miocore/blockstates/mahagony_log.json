@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "miocore:block/mahagony_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "miocore:block/mahagony_log"
+    },
+    "axis=z": {
+      "model": "miocore:block/mahagony_log_horizontal",
+      "x": 90
+    }
+  }
+}

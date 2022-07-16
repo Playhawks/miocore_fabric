@@ -3,6 +3,8 @@ package net.bluephs.miocore;
 import net.bluephs.miocore.block.ModBlocks;
 import net.bluephs.miocore.item.ModItems;
 import net.bluephs.miocore.util.ModRegistries;
+import net.bluephs.miocore.world.feature.ModConfiguredFeatures;
+import net.bluephs.miocore.world.gen.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,9 +15,13 @@ public class MioCore implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
 		ModRegistries.registerModStuffs();
+
+		ModWorldGen.generateModWorldGen();
 	}
 }

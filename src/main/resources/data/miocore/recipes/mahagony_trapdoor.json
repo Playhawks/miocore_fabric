@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "miocore:mahagony_planks"
+    }
+  },
+  "result": {
+    "item": "miocore:mahagony_trapdoor",
+    "count": 2
+  }
+}
