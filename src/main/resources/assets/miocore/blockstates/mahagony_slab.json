@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "miocore:block/mahagony_slab"
+    },
+    "type=double": {
+      "model": "miocore:block/mahagony_block"
+    },
+    "type=top": {
+      "model": "miocore:block/mahagony_slab_top"
+    }
+  }
+}

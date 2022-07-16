@@ -59,6 +59,10 @@
 
   "block.miocore.mahagony_fence": "Mahagony Fence",
   "block.miocore.mahagony_fence_gate": "Mahagony Fence Gate",
+  "block.miocore.mahagony_slab": "Mahagony Slab",
+  "block.miocore.mahagony_stairs": "Mahagony Stairs",
+  "block.miocore.mahagony_door": "Mahagony Door",
+  "block.miocore.mahagony_trapdoor": "Mahagony Trapdoor",
   "block.miocore.ash_tree_fence": "Ash Tree Fence",
   "block.miocore.ash_tree_fence_gate": "Ash Tree Fence Gate",
   "block.miocore.cherry_tree_fence": "Cherry Tree Fence",

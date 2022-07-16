@@ -1,14 +1,14 @@
 package net.bluephs.miocore.block;
 
+import net.bluephs.miocore.block.custon.ModDoorBlock;
+import net.bluephs.miocore.block.custon.ModStairsBlock;
+import net.bluephs.miocore.block.custon.ModTrapdoorBlock;
 import net.bluephs.miocore.block.custon.ModWoodButtonBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.bluephs.miocore.MioCore;
 import net.bluephs.miocore.item.ModItemGroup;
-import net.minecraft.block.Block;
-import net.minecraft.block.FenceBlock;
-import net.minecraft.block.FenceGateBlock;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -82,6 +82,15 @@ public class ModBlocks {
             new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block MAHAGONY_FENCE_GATE = registerBlock("mahagony_fence_gate",
             new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+
+    public static final Block MAHAGONY_SLAB = registerBlock("mahagony_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+    public static final Block MAHAGONY_STAIRS = registerBlock("mahagony_stairs",
+            new ModStairsBlock(ModBlocks.NICKEL_BLOCK.getDefaultState(),FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+    public static final Block MAHAGONY_DOOR = registerBlock("mahagony_door",
+            new ModDoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().nonOpaque()), ModItemGroup.Mio);
+    public static final Block MAHAGONY_TRAPDOOR = registerBlock("mahagony_trapdoor",
+            new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().nonOpaque()), ModItemGroup.Mio);
 
 
     public static final Block ASH_TREE_BUTTON = registerBlock("ash_tree_button",

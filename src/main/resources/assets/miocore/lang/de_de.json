@@ -59,6 +59,10 @@
 
   "block.miocore.mahagony_fence": "Mahagonizaun",
   "block.miocore.mahagony_fence_gate": "Mahagonizauntür",
+  "block.miocore.mahagony_slab": "Mahagonistufe",
+  "block.miocore.mahagony_stairs": "Mahagonitreppe",
+  "block.miocore.mahagony_door": "Mahagonitür",
+  "block.miocore.mahagony_trapdoor": "Mahagonifalltür",
   "block.miocore.ash_tree_fence": "Eschenzaun",
   "block.miocore.ash_tree_fence_gate": "Eschenzauntür",
   "block.miocore.cherry_tree_fence": "Kirschbaumzaun",

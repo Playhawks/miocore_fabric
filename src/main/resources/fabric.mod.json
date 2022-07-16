@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.bluephs.miocore.MioCore"
+    ],
+    "client": [
+      "net.bluephs.miocore.MioCoreClientMod"
     ]
   },
   "mixins": [

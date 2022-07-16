@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "miocore:block/mahagony_door_top",
+    "bottom": "miocore:block/mahagony_door_bottom"
+  }
+}
