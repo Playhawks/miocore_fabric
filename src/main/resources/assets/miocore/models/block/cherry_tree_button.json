@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "miocore:block/cherry_tree_planks"
+  }
+}

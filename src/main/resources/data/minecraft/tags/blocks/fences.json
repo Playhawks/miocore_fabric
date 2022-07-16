@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "miocore:mahagoni_fence",
-    "miocore:mahagoni_fence_gate",
-    "miocore:eschen_fence",
-    "miocore:eschen_fence_gate",
-    "miocore:kirschbaum_fence",
-    "miocore:kirschbaum_fence_gate"
+    "miocore:mahagony_fence",
+    "miocore:mahagony_fence_gate",
+    "miocore:ash_tree_fence",
+    "miocore:ash_tree_fence_gate",
+    "miocore:cherry_tree_fence",
+    "miocore:cherry_tree_fence_gate"
   ]
 }

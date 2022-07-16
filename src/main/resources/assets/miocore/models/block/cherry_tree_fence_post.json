@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "miocore:block/cherry_tree_planks"
+  }
+}

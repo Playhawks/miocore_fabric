@@ -53,16 +53,16 @@
   "item.miocore.dowsing_rod.tooltip.shift": "Rechtsklick um Mineralien zu finden",
   "item.miocore.dowsing_rod.tooltip": "Drücke §eSHIFT§r für mehr Informationen",
 
-  "block.miocore.mahagoni_button": "Mahagoniknopf",
-  "block.miocore.eschen_button": "Eschenknopf",
-  "block.miocore.kirschbaum_button": "Kirschbaumknopf",
+  "block.miocore.mahagony_button": "Mahagoniknopf",
+  "block.miocore.ash_tree_button": "Eschenknopf",
+  "block.miocore.cherry_tree_button": "Kirschbaumknopf",
 
-  "block.miocore.mahagoni_fence": "Mahagonizaun",
-  "block.miocore.mahagoni_fence_gate": "Mahagonizauntür",
-  "block.miocore.eschen_fence": "Eschenzaun",
-  "block.miocore.eschen_fence_gate": "Eschenzauntür",
-  "block.miocore.kirschbaum_fence": "Kirschbaumzaun",
-  "block.miocore.kirschbaum_fence_gate": "Kirschbaumzauntür",
+  "block.miocore.mahagony_fence": "Mahagonizaun",
+  "block.miocore.mahagony_fence_gate": "Mahagonizauntür",
+  "block.miocore.ash_tree_fence": "Eschenzaun",
+  "block.miocore.ash_tree_fence_gate": "Eschenzauntür",
+  "block.miocore.cherry_tree_fence": "Kirschbaumzaun",
+  "block.miocore.cherry_tree_fence_gate": "Kirschbaumzauntür",
 
   "itemGroup.miocore.mio": "Mio-Core"
 }

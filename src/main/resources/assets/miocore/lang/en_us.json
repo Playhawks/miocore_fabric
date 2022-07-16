@@ -53,16 +53,16 @@
   "item.miocore.dowsing_rod.tooltip.shift": "Right Click to find valuables",
   "item.miocore.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
 
-  "block.miocore.mahagoni_button": "Mahagoni Button",
-  "block.miocore.eschen_button": "Eschen Button",
-  "block.miocore.kirschbaum_button": "Cherry Tree Button",
+  "block.miocore.mahagony_button": "Mahagony Button",
+  "block.miocore.ash_tree_button": "Ash Tree Button",
+  "block.miocore.cherry_tree_button": "Cherry Tree Button",
 
-  "block.miocore.mahagoni_fence": "Mahagoni Fence",
-  "block.miocore.mahagoni_fence_gate": "Mahagoni Fence Gate",
-  "block.miocore.eschen_fence": "Eschen Fence",
-  "block.miocore.eschen_fence_gate": "Eschen Fence Gate",
-  "block.miocore.kirschbaum_fence": "Cherry Tree Fence",
-  "block.miocore.kirschbaum_fence_gate": "Cherry Tree Fence Gate",
+  "block.miocore.mahagony_fence": "Mahagony Fence",
+  "block.miocore.mahagony_fence_gate": "Mahagony Fence Gate",
+  "block.miocore.ash_tree_fence": "Ash Tree Fence",
+  "block.miocore.ash_tree_fence_gate": "Ash Tree Fence Gate",
+  "block.miocore.cherry_tree_fence": "Cherry Tree Fence",
+  "block.miocore.cherry_tree_fence_gate": "Cherry Tree Fence Gate",
 
   "itemGroup.miocore.mio": "Mio Core"
 }
