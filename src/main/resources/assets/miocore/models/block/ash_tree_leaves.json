@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "miocore:block/ash_tree_leaves"
+  }
+}

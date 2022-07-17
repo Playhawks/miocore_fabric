@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "miocore:block/ash_tree_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "miocore:block/ash_tree_wood"
+    },
+    "axis=z": {
+      "model": "miocore:block/ash_tree_wood",
+      "x": 90
+    }
+  }
+}

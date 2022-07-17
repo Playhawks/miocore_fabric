@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "miocore:block/cherry_tree_trapdoor"
+  }
+}

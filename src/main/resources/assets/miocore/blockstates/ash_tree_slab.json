@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "miocore:block/ash_tree_slab"
+    },
+    "type=double": {
+      "model": "miocore:block/ash_tree_block"
+    },
+    "type=top": {
+      "model": "miocore:block/ash_tree_slab_top"
+    }
+  }
+}

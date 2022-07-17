@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "miocore:block/cherry_tree_slab"
+    },
+    "type=double": {
+      "model": "miocore:block/cherry_tree_block"
+    },
+    "type=top": {
+      "model": "miocore:block/cherry_tree_slab_top"
+    }
+  }
+}

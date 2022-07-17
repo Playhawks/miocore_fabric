@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "miocore:block/cherry_tree_door_top",
+    "bottom": "miocore:block/cherry_tree_door_bottom"
+  }
+}

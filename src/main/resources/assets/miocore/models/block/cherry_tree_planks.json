@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "miocore:block/cherry_tree_planks"
+  }
+}
