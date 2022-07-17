@@ -13,6 +13,16 @@ public class ModPlacedFeatures {
                     ModConfiguredFeatures.MAHAGONY_SPAWN, VegetationPlacedFeatures.modifiers(
                             PlacedFeatures.createCountExtraModifier(1,0.1f,1)
                     ));
+    public static final RegistryEntry<PlacedFeature> ASH_TREE_PLACED =
+            PlacedFeatures.register("ash_tree_placed",
+                    ModConfiguredFeatures.ASH_TREE_SPAWN, VegetationPlacedFeatures.modifiers(
+                            PlacedFeatures.createCountExtraModifier(1,0.1f,1)
+                    ));
+    public static final RegistryEntry<PlacedFeature> CHERRY_TREE_PLACED =
+            PlacedFeatures.register("cherry_tree_placed",
+                    ModConfiguredFeatures.CHERRY_TREE_SPAWN, VegetationPlacedFeatures.modifiers(
+                            PlacedFeatures.createCountExtraModifier(1,0.1f,1)
+                    ));
 
     public static final RegistryEntry<PlacedFeature> NICKEL_ORE_PLACED = PlacedFeatures.register("nickel_ore_placed",
             ModConfiguredFeatures.NICKEL_ORE, ModOreFeatures.modifiersWithCount(3,

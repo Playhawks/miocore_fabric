@@ -57,9 +57,6 @@
   "item.miocore.dowsing_rod.tooltip": "Drücke §eSHIFT§r für mehr Informationen",
 
   "block.miocore.mahagony_button": "Mahagoniknopf",
-  "block.miocore.ash_tree_button": "Eschenknopf",
-  "block.miocore.cherry_tree_button": "Kirschbaumknopf",
-
   "block.miocore.mahagony_fence": "Mahagonizaun",
   "block.miocore.mahagony_fence_gate": "Mahagonizauntür",
   "block.miocore.mahagony_slab": "Mahagonistufe",
@@ -69,12 +66,34 @@
   "block.miocore.mahagony_log": "Mahagonistamm",
   "block.miocore.mahagony_wood": "Mahagoniholz",
   "block.miocore.mahagony_planks": "Mahagonibretter",
-  "block.miocore.ash_tree_fence": "Eschenzaun",
-  "block.miocore.ash_tree_fence_gate": "Eschenzauntür",
-  "block.miocore.cherry_tree_fence": "Kirschbaumzaun",
-  "block.miocore.cherry_tree_fence_gate": "Kirschbaumzauntür",
   "block.miocore.mahagony_leaves": "Mahagoniblätter",
   "block.miocore.mahagony_sapling": "Mahagonisetzling",
+
+  "block.miocore.ash_tree_button": "Eschenknopf",
+  "block.miocore.ash_tree_fence": "Eschenzaun",
+  "block.miocore.ash_tree_fence_gate": "Eschenzauntür",
+  "block.miocore.ash_tree_slab": "Eschenstufe",
+  "block.miocore.ash_tree_stairs": "Eschentreppe",
+  "block.miocore.ash_tree_door": "Eschentür",
+  "block.miocore.ash_tree_trapdoor": "Eschenfalltür",
+  "block.miocore.ash_tree_log": "Eschenstamm",
+  "block.miocore.ash_tree_wood": "Eschenholz",
+  "block.miocore.ash_tree_planks": "Eschenbretter",
+  "block.miocore.ash_tree_leaves": "Eschenblätter",
+  "block.miocore.ash_tree_sapling": "Eschensetzling",
+
+  "block.miocore.cherry_tree_button": "Kirschbaumknopf",
+  "block.miocore.cherry_tree_fence": "Kirschbaumzaun",
+  "block.miocore.cherry_tree_fence_gate": "Kirschbaumzauntür",
+  "block.miocore.cherry_tree_slab": "Kirschbaumstufe",
+  "block.miocore.cherry_tree_stairs": "Kirschbaumtreppe",
+  "block.miocore.cherry_tree_door": "Kirschbaumtür",
+  "block.miocore.cherry_tree_trapdoor": "Kirschbaumfalltür",
+  "block.miocore.cherry_tree_log": "Kirschbaumstamm",
+  "block.miocore.cherry_tree_wood": "Kirschbaumholz",
+  "block.miocore.cherry_tree_planks": "Kirschbaumbretter",
+  "block.miocore.cherry_tree_leaves": "Kirschbaumblätter",
+  "block.miocore.cherry_tree_sapling": "Kirschbaumsetzling",
 
   "itemGroup.miocore.mio": "Mio-Core"
 }

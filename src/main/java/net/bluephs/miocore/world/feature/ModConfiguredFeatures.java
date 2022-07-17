@@ -30,6 +30,40 @@ public class ModConfiguredFeatures {
                     new RandomFeatureConfig(List.of(new RandomFeatureEntry(MAHAGONY_CHECKED, 0.5f)),
                             MAHAGONY_CHECKED));
 
+    public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> ASH_TREE =
+            ConfiguredFeatures.register("ash_tree", Feature.TREE, new TreeFeatureConfig.Builder(
+                    BlockStateProvider.of(ModBlocks.ASH_TREE_LOG),
+                    new StraightTrunkPlacer(5,6,3),
+                    BlockStateProvider.of(ModBlocks.ASH_TREE_LEAVES),
+                    new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
+                    new TwoLayersFeatureSize(1,0,2)).build());
+
+    public static final RegistryEntry<PlacedFeature> ASH_TREE_CHECKED =
+            PlacedFeatures.register("mahagony_checked", MAHAGONY_TREE,
+                    PlacedFeatures.wouldSurvive(ModBlocks.ASH_TREE_SAPLING));
+
+    public static final RegistryEntry<ConfiguredFeature<RandomFeatureConfig, ?>> ASH_TREE_SPAWN =
+            ConfiguredFeatures.register("ash_tree_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfig(List.of(new RandomFeatureEntry(ASH_TREE_CHECKED, 0.5f)),
+                            ASH_TREE_CHECKED));
+
+    public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> CHERRY_TREE =
+            ConfiguredFeatures.register("cherry_tree", Feature.TREE, new TreeFeatureConfig.Builder(
+                    BlockStateProvider.of(ModBlocks.CHERRY_TREE_LOG),
+                    new StraightTrunkPlacer(5,6,3),
+                    BlockStateProvider.of(ModBlocks.CHERRY_TREE_LEAVES),
+                    new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
+                    new TwoLayersFeatureSize(1,0,2)).build());
+
+    public static final RegistryEntry<PlacedFeature> CHERRY_TREE_CHECKED =
+            PlacedFeatures.register("cherry_tree_checked", CHERRY_TREE,
+                    PlacedFeatures.wouldSurvive(ModBlocks.CHERRY_TREE_SAPLING));
+
+    public static final RegistryEntry<ConfiguredFeature<RandomFeatureConfig, ?>> CHERRY_TREE_SPAWN =
+            ConfiguredFeatures.register("cherry_tree_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfig(List.of(new RandomFeatureEntry(CHERRY_TREE_CHECKED, 0.5f)),
+                            CHERRY_TREE_CHECKED));
+
     public static final List<OreFeatureConfig.Target> OVERWORLD_NICKEL_ORE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
                     ModBlocks.NICKEL_ORE.getDefaultState()));

@@ -28,5 +28,13 @@ public class ModRegistries {
         instance.add(ModBlocks.MAHAGONY_WOOD, 5,5);
         instance.add(ModBlocks.MAHAGONY_PLANKS, 5,20);
         instance.add(ModBlocks.MAHAGONY_LEAVES, 30,60);
+        instance.add(ModBlocks.ASH_TREE_LOG, 5,5);
+        instance.add(ModBlocks.ASH_TREE_WOOD, 5,5);
+        instance.add(ModBlocks.ASH_TREE_PLANKS, 5,20);
+        instance.add(ModBlocks.ASH_TREE_LEAVES, 30,60);
+        instance.add(ModBlocks.CHERRY_TREE_LOG, 5,5);
+        instance.add(ModBlocks.CHERRY_TREE_WOOD, 5,5);
+        instance.add(ModBlocks.CHERRY_TREE_PLANKS, 5,20);
+        instance.add(ModBlocks.CHERRY_TREE_LEAVES, 30,60);
     }
 }

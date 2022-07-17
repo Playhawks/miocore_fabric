@@ -2,12 +2,12 @@
   "replace": false,
   "values": [
     "miocore:mahagony_button",
-    "miocore:ash_tree_button",
-    "miocore:cherry_tree_button",
     "miocore:mahagony_fence",
     "miocore:mahagony_fence_gate",
+    "miocore:ash_tree_button",
     "miocore:ash_tree_fence",
     "miocore:ash_tree_fence_gate",
+    "miocore:cherry_tree_button",
     "miocore:cherry_tree_fence",
     "miocore:cherry_tree_fence_gate"
   ]

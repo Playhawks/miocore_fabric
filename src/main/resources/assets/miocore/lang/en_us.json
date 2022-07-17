@@ -57,9 +57,6 @@
   "item.miocore.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
 
   "block.miocore.mahagony_button": "Mahagony Button",
-  "block.miocore.ash_tree_button": "Ash Tree Button",
-  "block.miocore.cherry_tree_button": "Cherry Tree Button",
-
   "block.miocore.mahagony_fence": "Mahagony Fence",
   "block.miocore.mahagony_fence_gate": "Mahagony Fence Gate",
   "block.miocore.mahagony_slab": "Mahagony Slab",
@@ -69,12 +66,34 @@
   "block.miocore.mahagony_log": "Mahagony Log",
   "block.miocore.mahagony_wood": "Mahagony Wood",
   "block.miocore.mahagony_planks": "Mahagony Planks",
-  "block.miocore.ash_tree_fence": "Ash Tree Fence",
-  "block.miocore.ash_tree_fence_gate": "Ash Tree Fence Gate",
-  "block.miocore.cherry_tree_fence": "Cherry Tree Fence",
-  "block.miocore.cherry_tree_fence_gate": "Cherry Tree Fence Gate",
   "block.miocore.mahagony_leaves": "Mahagony Leaves",
   "block.miocore.mahagony_sapling": "Mahagony Sapling",
+
+  "block.miocore.ash_tree_button": "Ash Tree Button",
+  "block.miocore.ash_tree_fence": "Ash Tree Fence",
+  "block.miocore.ash_tree_fence_gate": "Ash Tree Fence Gate",
+  "block.miocore.ash_tree_slab": "Ash Tree Slab",
+  "block.miocore.ash_tree_stairs": "Ash Tree Stairs",
+  "block.miocore.ash_tree_door": "Ash Tree Door",
+  "block.miocore.ash_tree_trapdoor": "Ash Tree Trapdoor",
+  "block.miocore.ash_tree_log": "Ash Tree Log",
+  "block.miocore.ash_tree_wood": "Ash Tree Wood",
+  "block.miocore.ash_tree_planks": "Ash Tree Planks",
+  "block.miocore.ash_tree_leaves": "Ash Tree Leaves",
+  "block.miocore.ash_tree_sapling": "Ash Tree Sapling",
+
+  "block.miocore.cherry_tree_button": "Cherry Tree Button",
+  "block.miocore.cherry_tree_fence": "Cherry Tree Fence",
+  "block.miocore.cherry_tree_fence_gate": "Cherry Tree Fence Gate",
+  "block.miocore.cherry_tree_slab": "Cherry Tree Slab",
+  "block.miocore.cherry_tree_stairs": "Cherry Tree Stairs",
+  "block.miocore.cherry_tree_door": "Cherry Tree Door",
+  "block.miocore.cherry_tree_trapdoor": "Cherry Tree Trapdoor",
+  "block.miocore.cherry_tree_log": "Cherry Tree Log",
+  "block.miocore.cherry_tree_wood": "Cherry Tree Wood",
+  "block.miocore.cherry_tree_planks": "Cherry Tree Planks",
+  "block.miocore.cherry_tree_leaves": "Cherry Tree Leaves",
+  "block.miocore.cherry_tree_sapling": "Cherry Tree Sapling",
 
   "itemGroup.miocore.mio": "Mio Core"
 }
