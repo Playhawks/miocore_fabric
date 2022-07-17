@@ -28,50 +28,50 @@ public class ModBlocks {
     public static final Block NICKEL_ORE = registerBlock("nickel_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block DEEPSLATE_NICKEL_ORE = registerBlock("deepslate_nickel_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COPPER_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
     public static final Block LEAD_BLOCK = registerBlock("lead_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
     public static final Block LEAD_ORE = registerBlock("lead_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block DEEPSLATE_LEAD_ORE = registerBlock("deepslate_lead_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COPPER_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
     public static final Block ALUMINIUM_BLOCK = registerBlock("aluminium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
     public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block DEEPSLATE_ALUMINIUM_ORE = registerBlock("deepslate_aluminium_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COPPER_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
     public static final Block PLATIN_BLOCK = registerBlock("platin_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
     public static final Block PLATIN_ORE = registerBlock("platin_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block DEEPSLATE_PLATIN_ORE = registerBlock("deepslate_platin_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COPPER_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
     public static final Block SILVER_BLOCK = registerBlock("silver_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
     public static final Block SILVER_ORE = registerBlock("silver_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COPPER_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
     public static final Block ARDITE_BLOCK = registerBlock("ardite_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
     public static final Block NETHERRACK_ARDITE_ORE = registerBlock("netherrack_ardite_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
     public static final Block OSMIUM_BLOCK = registerBlock("osmium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
     public static final Block NETHERRACK_OSMIUM_ORE = registerBlock("netherrack_osmium_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
     public static final Block URAN_ORE = registerBlock("uran_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block DEEPSLATE_URAN_ORE = registerBlock("deepslate_uran_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COPPER_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
 
     public static final Block MAHAGONY_BUTTON = registerBlock("mahagony_button",
