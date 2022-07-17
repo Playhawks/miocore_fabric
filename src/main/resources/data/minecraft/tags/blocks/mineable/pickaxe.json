@@ -19,8 +19,8 @@
     "miocore:uran_ore",
     "miocore:deepslate_uran_ore",
     "miocore:ardite_block",
-    "miocore:nether_ardite_ore",
+    "miocore:netherrack_ardite_ore",
     "miocore:osmium_block",
-    "miocore:nether_osmium_ore"
+    "miocore:netherrack_osmium_ore"
   ]
 }
