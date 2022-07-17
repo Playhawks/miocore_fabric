@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "miocore:cherry_tree_log"
+    }
+  },
+  "result": {
+    "item": "miocore:cherry_tree_wood",
+    "count": 3
+  }
+}

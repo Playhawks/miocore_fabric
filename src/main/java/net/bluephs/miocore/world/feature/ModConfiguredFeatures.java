@@ -39,7 +39,7 @@ public class ModConfiguredFeatures {
                     new TwoLayersFeatureSize(1,0,2)).build());
 
     public static final RegistryEntry<PlacedFeature> ASH_TREE_CHECKED =
-            PlacedFeatures.register("mahagony_checked", MAHAGONY_TREE,
+            PlacedFeatures.register("ash_tree_checked", ASH_TREE,
                     PlacedFeatures.wouldSurvive(ModBlocks.ASH_TREE_SAPLING));
 
     public static final RegistryEntry<ConfiguredFeature<RandomFeatureConfig, ?>> ASH_TREE_SPAWN =

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "#miocore:mahagony_logs"
+    "#miocore:mahagony_logs",
+    "#miocore:ash_tree_logs",
+    "#miocore:cherry_tree_logs"
   ]
 }

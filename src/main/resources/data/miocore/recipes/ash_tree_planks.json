@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "miocore:ash_tree_logs"
+    }
+  ],
+  "result": {
+    "item": "miocore:ash_tree_planks",
+    "count": 4
+  }
+}
