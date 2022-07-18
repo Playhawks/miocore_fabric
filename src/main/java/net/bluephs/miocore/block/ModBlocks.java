@@ -97,7 +97,7 @@ public class ModBlocks {
     public static final Block MAHAGONY_TRAPDOOR = registerBlock("mahagony_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().nonOpaque()), ModItemGroup.Mio);
     public static final Block MAHAGONY_LEAVES = registerBlock("mahagony_leaves",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.Mio);
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).mapColor(MapColor.LICHEN_GREEN).nonOpaque()), ModItemGroup.Mio);
     public static final Block MAHAGONY_SAPLING = registerBlock("mahagony_sapling",
             new ModSaplingBlock(new MahagonySaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.Mio);
 
@@ -123,7 +123,7 @@ public class ModBlocks {
     public static final Block ASH_TREE_TRAPDOOR = registerBlock("ash_tree_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().nonOpaque()), ModItemGroup.Mio);
     public static final Block ASH_TREE_LEAVES = registerBlock("ash_tree_leaves",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.Mio);
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).mapColor(MapColor.LIME).nonOpaque()), ModItemGroup.Mio);
     public static final Block ASH_TREE_SAPLING = registerBlock("ash_tree_sapling",
             new ModSaplingBlock(new AshTreeSaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.Mio);
 
@@ -149,7 +149,7 @@ public class ModBlocks {
     public static final Block CHERRY_TREE_TRAPDOOR = registerBlock("cherry_tree_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().nonOpaque()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_LEAVES = registerBlock("cherry_tree_leaves",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.Mio);
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).mapColor(MapColor.MAGENTA).nonOpaque()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_SAPLING = registerBlock("cherry_tree_sapling",
             new ModSaplingBlock(new CherryTreeSaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.Mio);
 
