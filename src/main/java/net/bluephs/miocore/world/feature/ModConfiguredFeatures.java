@@ -70,7 +70,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> NICKEL_ORE =
             ConfiguredFeatures.register("nickel_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_NICKEL_ORE, 14));
+                    new OreFeatureConfig(OVERWORLD_NICKEL_ORE, 12));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_DEEPSLATE_NICKEL_ORE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
@@ -78,7 +78,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DEEPSLATE_NICKEL_ORE =
             ConfiguredFeatures.register("deepslate_nickel_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_DEEPSLATE_NICKEL_ORE, 14));
+                    new OreFeatureConfig(OVERWORLD_DEEPSLATE_NICKEL_ORE, 12));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_LEAD_ORE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
@@ -86,7 +86,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> LEAD_ORE =
             ConfiguredFeatures.register("lead_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_LEAD_ORE, 11));
+                    new OreFeatureConfig(OVERWORLD_LEAD_ORE, 9));
 
     public static final List<OreFeatureConfig.Target> OVERWOLD_DEEPSLATE_LEAD_ORE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
@@ -94,7 +94,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DEEPSLATE_LEAD_ORE =
             ConfiguredFeatures.register("deepslate_lead_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWOLD_DEEPSLATE_LEAD_ORE, 11));
+                    new OreFeatureConfig(OVERWOLD_DEEPSLATE_LEAD_ORE, 9));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_ALUMINIUM_ORE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
