@@ -1,6 +1,7 @@
 package net.bluephs.miocore;
 
 import net.bluephs.miocore.block.ModBlocks;
+import net.bluephs.miocore.block.entity.ModBlockEntities;
 import net.bluephs.miocore.item.ModItems;
 import net.bluephs.miocore.util.ModRegistries;
 import net.bluephs.miocore.world.feature.ModConfiguredFeatures;
@@ -23,5 +24,7 @@ public class MioCore implements ModInitializer {
 		ModRegistries.registerModStuffs();
 
 		ModWorldGen.generateModWorldGen();
+
+		ModBlockEntities.registerAllBlockEntities();
 	}
 }

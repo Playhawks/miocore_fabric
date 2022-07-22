@@ -153,6 +153,9 @@ public class ModBlocks {
     public static final Block CHERRY_TREE_SAPLING = registerBlock("cherry_tree_sapling",
             new ModSaplingBlock(new CherryTreeSaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.Mio);
 
+    public static final Block MIOCORE_BLASTER = registerBlock("miocore_blaster",
+            new MiocoreBlasterBlock(FabricBlockSettings.of(Material.METAL).nonOpaque()), ModItemGroup.Mio);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey){
         registerBlockItem(name, block, group, tooltipKey);

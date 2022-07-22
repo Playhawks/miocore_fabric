@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "*-*",
+    "~#-",
+    "Y~X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:furnace"
+    },
+    "*": {
+      "item": "miocore:lead_ingot"
+    },
+    "~": {
+      "item": "miocore:nickel_ingot"
+    },
+    "-": {
+      "item": "miocore:aluminium_ingot"
+    },
+    "Y": {
+      "item": "miocore:platin_ingot"
+    },
+    "X": {
+      "item": "miocore:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "miocore:miocore_blaster"
+  }
+}
