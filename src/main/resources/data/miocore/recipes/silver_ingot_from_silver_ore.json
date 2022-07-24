@@ -1,0 +1,14 @@
+{
+  "type": "miocore:miocore_blaster",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "miocore:silver_ore"
+    }
+  ],
+  "output": {
+    "item": "miocore:silver_ingot"
+  }
+}

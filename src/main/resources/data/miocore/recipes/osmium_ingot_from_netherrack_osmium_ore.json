@@ -1,0 +1,14 @@
+{
+  "type": "miocore:miocore_blaster",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "miocore:netherrack_osmium_ore"
+    }
+  ],
+  "output": {
+    "item": "miocore:osmium_ingot"
+  }
+}

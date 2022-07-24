@@ -3,6 +3,8 @@ package net.bluephs.miocore;
 import net.bluephs.miocore.block.ModBlocks;
 import net.bluephs.miocore.block.entity.ModBlockEntities;
 import net.bluephs.miocore.item.ModItems;
+import net.bluephs.miocore.recipe.ModRecipes;
+import net.bluephs.miocore.screen.ModScreenHandlers;
 import net.bluephs.miocore.util.ModRegistries;
 import net.bluephs.miocore.world.feature.ModConfiguredFeatures;
 import net.bluephs.miocore.world.gen.ModWorldGen;
@@ -26,5 +28,8 @@ public class MioCore implements ModInitializer {
 		ModWorldGen.generateModWorldGen();
 
 		ModBlockEntities.registerAllBlockEntities();
+		ModRecipes.registerRecipes();
+
+		ModScreenHandlers.registerAllScreenHandlers();
 	}
 }

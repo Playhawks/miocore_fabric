@@ -1,0 +1,14 @@
+{
+  "type": "miocore:miocore_blaster",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "miocore:deepslate_lead_ore"
+    }
+  ],
+  "output": {
+    "item": "miocore:lead_ingot"
+  }
+}
