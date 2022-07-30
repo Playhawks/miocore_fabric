@@ -25,27 +25,27 @@ public class ModPlacedFeatures {
                     ));
 
     public static final RegistryEntry<PlacedFeature> NICKEL_ORE_PLACED = PlacedFeatures.register("nickel_ore_placed",
-            ModConfiguredFeatures.NICKEL_ORE, ModOreFeatures.modifiersWithCount(12,
+            ModConfiguredFeatures.NICKEL_ORE, ModOreFeatures.modifiersWithCount(8,
                     HeightRangePlacementModifier.uniform(YOffset.aboveBottom(139), YOffset.aboveBottom(159))));
 
     public static final RegistryEntry<PlacedFeature> DEEPSLATE_NICKEL_ORE_PLACED = PlacedFeatures.register("deepslate_nickel_ore_placed",
-            ModConfiguredFeatures.DEEPSLATE_NICKEL_ORE, ModOreFeatures.modifiersWithCount(12,
+            ModConfiguredFeatures.DEEPSLATE_NICKEL_ORE, ModOreFeatures.modifiersWithCount(8,
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.aboveBottom(72))));
 
     public static final RegistryEntry<PlacedFeature> LEAD_ORE_PLACED = PlacedFeatures.register("lead_ore_placed",
-            ModConfiguredFeatures.LEAD_ORE, ModOreFeatures.modifiersWithCount(9,
+            ModConfiguredFeatures.LEAD_ORE, ModOreFeatures.modifiersWithCount(7,
                     HeightRangePlacementModifier.uniform(YOffset.aboveBottom(119), YOffset.aboveBottom(139))));
 
     public static final RegistryEntry<PlacedFeature> DEEPSLATE_LEAD_ORE_PLACED = PlacedFeatures.register("deepslate_lead_ore_placed",
-            ModConfiguredFeatures.DEEPSLATE_LEAD_ORE, ModOreFeatures.modifiersWithCount(9,
+            ModConfiguredFeatures.DEEPSLATE_LEAD_ORE, ModOreFeatures.modifiersWithCount(7,
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.aboveBottom(72))));
 
     public static final RegistryEntry<PlacedFeature> ALUMINIUM_ORE_PLACED = PlacedFeatures.register("aluminium_ore_placed",
-            ModConfiguredFeatures.ALUMINIUM_ORE, ModOreFeatures.modifiersWithCount(8,
+            ModConfiguredFeatures.ALUMINIUM_ORE, ModOreFeatures.modifiersWithCount(6,
                     HeightRangePlacementModifier.uniform(YOffset.aboveBottom(79), YOffset.aboveBottom(89))));
 
     public static final RegistryEntry<PlacedFeature> DEEPSLATE_ALUMINIUM_ORE_PLACED = PlacedFeatures.register("deepslate_aluminium_ore_placed",
-            ModConfiguredFeatures.DEEPSLATE_ALUMINIUM_ORE, ModOreFeatures.modifiersWithCount(8,
+            ModConfiguredFeatures.DEEPSLATE_ALUMINIUM_ORE, ModOreFeatures.modifiersWithCount(6,
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.aboveBottom(72))));
 
     public static final RegistryEntry<PlacedFeature> PLATINUM_ORE_PLACED = PlacedFeatures.register("platinum_ore_placed",
