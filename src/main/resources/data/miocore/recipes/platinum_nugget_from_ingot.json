@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "miocore:platinum_ingot"
+    }
+  ],
+  "result": {
+    "item": "miocore:platinum_nugget",
+    "count": 9
+  }
+}

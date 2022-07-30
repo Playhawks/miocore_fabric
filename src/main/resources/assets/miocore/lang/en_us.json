@@ -8,9 +8,9 @@
   "item.miocore.raw_aluminium": "Raw Aluminium",
   "item.miocore.aluminium_ingot": "Aluminium Ingot",
   "item.miocore.aluminium_nugget": "Aluminium Nugget",
-  "item.miocore.raw_platin": "Raw Platin",
-  "item.miocore.platin_ingot": "Platin Ingot",
-  "item.miocore.platin_nugget": "Platin Nugget",
+  "item.miocore.raw_platinum": "Raw Platinum",
+  "item.miocore.platinum_ingot": "Platinum Ingot",
+  "item.miocore.platinum_nugget": "Platinum Nugget",
   "item.miocore.raw_silver": "Raw Silver",
   "item.miocore.silver_ingot": "Silver Ingot",
   "item.miocore.silver_nugget": "Silver Nugget",
@@ -20,13 +20,19 @@
   "item.miocore.raw_osmium": "Raw Osmium",
   "item.miocore.osmium_ingot": "Osmium Ingot",
   "item.miocore.osmium_nugget": "Osmium Nugget",
-  "item.miocore.raw_uran": "Raw Uran",
-  "item.miocore.uran_ingot": "Uran Ingot",
+  "item.miocore.raw_uranium": "Raw Uranium",
+  "item.miocore.uranium_ingot": "Uranium Ingot",
   "item.miocore.enhanced_bone_meal": "Enhanced Bone Meal",
   "item.miocore.dowsing_rod": "Dowsing Rod",
   "item.miocore.mahagony_coal": "Mahagony Coal",
   "item.miocore.ash_tree_coal": "Ash Tree Coal",
   "item.miocore.cherry_tree_coal": "Cherry Tree Coal",
+  "item.miocore.dowsing_rod.no_valuables": "No valuables found",
+  "item.miocore.dowsing_rod.found": "Found ",
+  "item.miocore.dowsing_rod.found_at": " at ",
+  "item.miocore.dowsing_rod.tooltip.shift": "Right Click to find valuables",
+  "item.miocore.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
+
 
   "block.miocore.nickel_block": "Block of Nickel",
   "block.miocore.nickel_ore": "Nickel Ore",
@@ -37,9 +43,9 @@
   "block.miocore.aluminium_block": "Block of Aluminium",
   "block.miocore.aluminium_ore": "Aluminium Ore",
   "block.miocore.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
-  "block.miocore.platin_block": "Block of Platin",
-  "block.miocore.platin_ore": "Platin Ore",
-  "block.miocore.deepslate_platin_ore": "Deepslate Platin Ore",
+  "block.miocore.platinum_block": "Block of Platinum",
+  "block.miocore.platinum_ore": "Platinum Ore",
+  "block.miocore.deepslate_platinum_ore": "Deepslate Platinum Ore",
   "block.miocore.silver_block": "Block of Silver",
   "block.miocore.silver_ore": "Silver Ore",
   "block.miocore.deepslate_silver_ore": "Deepslate Silver Ore",
@@ -47,15 +53,8 @@
   "block.miocore.netherrack_ardite_ore": "Nether Ardite Ore",
   "block.miocore.osmium_block": "Block of Osmium",
   "block.miocore.netherrack_osmium_ore": "Nether Osmium Ore",
-  "block.miocore.uran_ore": "Uran Ore",
-  "block.miocore.deepslate_uran_ore": "Deepslate Uran Ore",
-
-  "item.miocore.dowsing_rod.no_valuables": "No valuables found",
-  "item.miocore.dowsing_rod.found": "Found ",
-  "item.miocore.dowsing_rod.found_at": " at ",
-  "item.miocore.dowsing_rod.tooltip.shift": "Right Click to find valuables",
-  "item.miocore.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
-
+  "block.miocore.uranium_ore": "Uranium Ore",
+  "block.miocore.deepslate_uranium_ore": "Deepslate Uranium Ore",
   "block.miocore.mahagony_button": "Mahagony Button",
   "block.miocore.mahagony_fence": "Mahagony Fence",
   "block.miocore.mahagony_fence_gate": "Mahagony Fence Gate",
@@ -68,7 +67,6 @@
   "block.miocore.mahagony_planks": "Mahagony Planks",
   "block.miocore.mahagony_leaves": "Mahagony Leaves",
   "block.miocore.mahagony_sapling": "Mahagony Sapling",
-
   "block.miocore.ash_tree_button": "Ash Tree Button",
   "block.miocore.ash_tree_fence": "Ash Tree Fence",
   "block.miocore.ash_tree_fence_gate": "Ash Tree Fence Gate",
@@ -81,7 +79,6 @@
   "block.miocore.ash_tree_planks": "Ash Tree Planks",
   "block.miocore.ash_tree_leaves": "Ash Tree Leaves",
   "block.miocore.ash_tree_sapling": "Ash Tree Sapling",
-
   "block.miocore.cherry_tree_button": "Cherry Tree Button",
   "block.miocore.cherry_tree_fence": "Cherry Tree Fence",
   "block.miocore.cherry_tree_fence_gate": "Cherry Tree Fence Gate",
@@ -94,8 +91,8 @@
   "block.miocore.cherry_tree_planks": "Cherry Tree Planks",
   "block.miocore.cherry_tree_leaves": "Cherry Tree Leaves",
   "block.miocore.cherry_tree_sapling": "Cherry Tree Sapling",
-
   "block.miocore.miocore_blaster": "Miocore Blaster",
+
 
   "itemGroup.miocore.mio": "Mio Core"
 }

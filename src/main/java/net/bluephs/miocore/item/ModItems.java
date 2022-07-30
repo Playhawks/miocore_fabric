@@ -3,6 +3,7 @@ package net.bluephs.miocore.item;
 import net.bluephs.miocore.MioCore;
 import net.bluephs.miocore.item.custom.DowsingRodItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
@@ -31,11 +32,11 @@ public class ModItems {
     public static final Item ALUMINIUM_NUGGET = registerItem("aluminium_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
 
-    public static final Item RAW_PLATIN = registerItem("raw_platin",
+    public static final Item RAW_PLATINUM = registerItem("raw_platinum",
             new Item(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
-    public static final Item PLATIN_INGOT = registerItem("platin_ingot",
+    public static final Item PLATINUM_INGOT = registerItem("platinum_ingot",
             new Item(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
-    public static final Item PLATIN_NUGGET = registerItem("platin_nugget",
+    public static final Item PLATINUM_NUGGET = registerItem("platinum_nugget",
             new Item(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
 
     public static final Item RAW_SILVER = registerItem("raw_silver",
@@ -59,10 +60,12 @@ public class ModItems {
     public static final Item OSMIUM_NUGGET = registerItem("osmium_nugget",
             new Item(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
 
-    public static final Item RAW_URAN = registerItem("raw_uran",
+    public static final Item RAW_URANIUM = registerItem("raw_uranium",
             new Item(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
-    public static final Item URAN_INGOT = registerItem("uran_ingot",
+    public static final Item URANIUM_INGOT = registerItem("uranium_ingot",
             new Item(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
+
+
     public static final Item ENHANCED_BONE_MEAL = registerItem("enhanced_bone_meal",
             new Item(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
 
@@ -75,6 +78,7 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
     public static final Item CHERRY_TREE_COAL = registerItem("cherry_tree_coal",
             new Item(new FabricItemSettings().group(ModItemGroup.Mio)));
+
 
 
     private static Item registerItem(String name, Item item) {

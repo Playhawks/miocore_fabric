@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "miocore:raw_platinum"
+  },
+  "result": "miocore:platinum_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

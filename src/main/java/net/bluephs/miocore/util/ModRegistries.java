@@ -16,9 +16,9 @@ public class ModRegistries {
         MioCore.LOGGER.info("Registering Fuels for " + MioCore.MOD_ID);
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
-        registry.add(ModItems.MAHAGONY_COAL, 6400);
-        registry.add(ModItems.ASH_TREE_COAL, 6400);
-        registry.add(ModItems.CHERRY_TREE_COAL, 6400);
+        registry.add(ModItems.MAHAGONY_COAL, 3200);
+        registry.add(ModItems.ASH_TREE_COAL, 3200);
+        registry.add(ModItems.CHERRY_TREE_COAL, 3200);
     }
 
     private static void registerFlammableBlock() {

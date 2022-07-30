@@ -46,11 +46,11 @@ public class ModBlocks {
     public static final Block DEEPSLATE_ALUMINIUM_ORE = registerBlock("deepslate_aluminium_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COPPER_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
-    public static final Block PLATIN_BLOCK = registerBlock("platin_block",
+    public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
-    public static final Block PLATIN_ORE = registerBlock("platin_ore",
+    public static final Block PLATINUM_ORE = registerBlock("platinum_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
-    public static final Block DEEPSLATE_PLATIN_ORE = registerBlock("deepslate_platin_ore",
+    public static final Block DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COPPER_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
     public static final Block SILVER_BLOCK = registerBlock("silver_block",
@@ -70,9 +70,9 @@ public class ModBlocks {
     public static final Block NETHERRACK_OSMIUM_ORE = registerBlock("netherrack_osmium_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
-    public static final Block URAN_ORE = registerBlock("uran_ore",
+    public static final Block URANIUM_ORE = registerBlock("uranium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
-    public static final Block DEEPSLATE_URAN_ORE = registerBlock("deepslate_uran_ore",
+    public static final Block DEEPSLATE_URANIUM_ORE = registerBlock("deepslate_uranium_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COPPER_ORE).strength(4.5f).requiresTool()), ModItemGroup.Mio);
 
 
@@ -85,7 +85,7 @@ public class ModBlocks {
     public static final Block MAHAGONY_SLAB = registerBlock("mahagony_slab",
             new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block MAHAGONY_PLANKS = registerBlock("mahagony_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).requiresTool()), ModItemGroup.Mio);
     public static final Block MAHAGONY_STAIRS = registerBlock("mahagony_stairs",
             new ModStairsBlock(ModBlocks.MAHAGONY_PLANKS.getDefaultState(), FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block MAHAGONY_LOG = registerBlock("mahagony_log",
@@ -111,7 +111,7 @@ public class ModBlocks {
     public static final Block ASH_TREE_SLAB = registerBlock("ash_tree_slab",
             new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block ASH_TREE_PLANKS = registerBlock("ash_tree_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).requiresTool()), ModItemGroup.Mio);
     public static final Block ASH_TREE_STAIRS = registerBlock("ash_tree_stairs",
             new ModStairsBlock(ModBlocks.ASH_TREE_PLANKS.getDefaultState(), FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block ASH_TREE_LOG = registerBlock("ash_tree_log",
@@ -137,7 +137,7 @@ public class ModBlocks {
     public static final Block CHERRY_TREE_SLAB = registerBlock("cherry_tree_slab",
             new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_PLANKS = registerBlock("cherry_tree_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).requiresTool()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_STAIRS = registerBlock("cherry_tree_stairs",
             new ModStairsBlock(ModBlocks.CHERRY_TREE_PLANKS.getDefaultState(), FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_LOG = registerBlock("cherry_tree_log",
@@ -157,6 +157,7 @@ public class ModBlocks {
             new MiocoreBlasterBlock(FabricBlockSettings.of(Material.METAL).nonOpaque()), ModItemGroup.Mio);
 
 
+
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey){
         registerBlockItem(name, block, group, tooltipKey);
         return Registry.register(Registry.BLOCK, new Identifier(MioCore.MOD_ID, name), block);
@@ -170,6 +171,10 @@ public class ModBlocks {
                         tooltip.add(new TranslatableText(tooltipKey));
                     }
                 });
+    }
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block, ItemGroup group) {
+        return Registry.register(Registry.BLOCK, new Identifier(MioCore.MOD_ID, name), block);
     }
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

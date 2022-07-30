@@ -1,0 +1,14 @@
+{
+  "type": "miocore:miocore_blaster",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "miocore:uranium_ore"
+    }
+  ],
+  "output": {
+    "item": "miocore:uranium_ingot"
+  }
+}
