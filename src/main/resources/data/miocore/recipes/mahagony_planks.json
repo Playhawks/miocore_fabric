@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "miocore:mahagony_logs"
+      "item": "miocore:mahagony_log"
     }
   ],
   "result": {

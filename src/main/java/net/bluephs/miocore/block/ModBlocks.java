@@ -127,7 +127,10 @@ public class ModBlocks {
     public static final Block ASH_TREE_SAPLING = registerBlock("ash_tree_sapling",
             new ModSaplingBlock(new AshTreeSaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.Mio);
 
-
+    public static final Block CHERRY_TREE_LOG = registerBlock("cherry_tree_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+    public static final Block CHERRY_TREE_WOOD = registerBlock("cherry_tree_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_BUTTON = registerBlock("cherry_tree_button",
             new ModWoodButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().noCollision()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_FENCE = registerBlock("cherry_tree_fence",
@@ -138,12 +141,10 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_PLANKS = registerBlock("cherry_tree_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).requiresTool()), ModItemGroup.Mio);
+
     public static final Block CHERRY_TREE_STAIRS = registerBlock("cherry_tree_stairs",
             new ModStairsBlock(ModBlocks.CHERRY_TREE_PLANKS.getDefaultState(), FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
-    public static final Block CHERRY_TREE_LOG = registerBlock("cherry_tree_log",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4.5f).requiresTool()), ModItemGroup.Mio);
-    public static final Block CHERRY_TREE_WOOD = registerBlock("cherry_tree_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
+
     public static final Block CHERRY_TREE_DOOR = registerBlock("cherry_tree_door",
             new ModDoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool().nonOpaque()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_TRAPDOOR = registerBlock("cherry_tree_trapdoor",

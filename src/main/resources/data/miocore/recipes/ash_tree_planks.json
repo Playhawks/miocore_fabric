@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "miocore:ash_tree_logs"
+      "item": "miocore:ash_tree_log"
     }
   ],
   "result": {

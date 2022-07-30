@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "miocore:cherry_tree_logs"
+      "item": "miocore:cherry_tree_log"
     }
   ],
   "result": {
