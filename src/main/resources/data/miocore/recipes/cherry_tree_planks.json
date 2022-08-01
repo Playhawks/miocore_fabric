@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "planks",
   "ingredients": [
     {
       "item": "miocore:cherry_tree_log"
