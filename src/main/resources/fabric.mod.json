@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Miocore",
-  "description": "Das ist die Miocore-Mod. Diese Mod enthält Erze, Items, Blöcke, Bäume, Maschienen, Flüssigkeiten und eine Reihe an Gasen. Sie wird auch von anderen Mods die von uns noch kommen werden gebraucht.",
+  "description": "Das ist die Miocore-Mod.\n Diese Mod enthält Erze, Items, Blöcke, Bäume, Maschienen, Flüssigkeiten und eine Reihe an Gasen.\n Sie wird auch von anderen Mods die von uns noch kommen werden gebraucht.",
   "authors": [
     "Blue.PHS!"
   ],

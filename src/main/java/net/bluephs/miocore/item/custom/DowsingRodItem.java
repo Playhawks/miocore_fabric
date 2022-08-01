@@ -2,7 +2,6 @@ package net.bluephs.miocore.item.custom;
 
 import net.bluephs.miocore.util.ModTags;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
@@ -19,6 +18,7 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
+import java.util.Objects;
 
 public class DowsingRodItem extends Item {
     public DowsingRodItem(Settings settings) {
@@ -34,16 +34,18 @@ public class DowsingRodItem extends Item {
             for(int i = 0; i <= positionClicked.getY() + 64; i++) {
                 Block blockBelow = context.getWorld().getBlockState(positionClicked.down(i)).getBlock();
                 if(isValuableBlock(blockBelow)) {
+                    assert player != null;
                     outputValuableCoordinates(positionClicked.down(i), player, blockBelow);
                     foundBlock = true;
                     break;
                 }
             }
             if(!foundBlock) {
+                assert player != null;
                 player.sendMessage(new TranslatableText("item.miocore.dowsing_rod.no_valuables"), false);
             }
         }
-        context.getStack().damage(1, context.getPlayer(),
+        context.getStack().damage(1, Objects.requireNonNull(context.getPlayer()),
                 (player) -> player.sendToolBreakStatus(player.getActiveHand()));
         return super.useOnBlock(context);
     }

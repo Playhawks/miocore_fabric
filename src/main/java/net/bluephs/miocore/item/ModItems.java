@@ -3,7 +3,6 @@ package net.bluephs.miocore.item;
 import net.bluephs.miocore.MioCore;
 import net.bluephs.miocore.item.custom.DowsingRodItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
@@ -76,7 +75,6 @@ public class ModItems {
 
     public static final Item ENHANCED_BONE_MEAL = registerItem("enhanced_bone_meal",
             new Item(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
-
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
             new DowsingRodItem(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio).maxDamage(1250)));
 

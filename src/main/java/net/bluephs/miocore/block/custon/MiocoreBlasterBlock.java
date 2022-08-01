@@ -85,18 +85,12 @@ public class MiocoreBlasterBlock extends BlockWithEntity implements BlockEntityP
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        switch (state.get(FACING)) {
-            case NORTH:
-                return SHAPE_N;
-            case SOUTH:
-                return SHAPE_S;
-            case WEST:
-                return SHAPE_W;
-            case EAST:
-                return SHAPE_E;
-            default:
-                return SHAPE_N;
-        }
+        return switch (state.get(FACING)) {
+            case SOUTH -> SHAPE_S;
+            case WEST -> SHAPE_W;
+            case EAST -> SHAPE_E;
+            default -> SHAPE_N;
+        };
     }
 
     @Nullable
@@ -162,6 +156,6 @@ public class MiocoreBlasterBlock extends BlockWithEntity implements BlockEntityP
     @Nullable
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return checkType(type, ModBlockEntities.MIOCORE_BLASTER, (world1, pos, state1, be) -> MiocoreBlasterBlockEntity.tick(world1, pos, state1, be));
+        return checkType(type, ModBlockEntities.MIOCORE_BLASTER, MiocoreBlasterBlockEntity::tick);
     }
 }

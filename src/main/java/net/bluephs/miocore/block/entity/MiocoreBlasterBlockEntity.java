@@ -1,6 +1,5 @@
 package net.bluephs.miocore.block.entity;
 
-import net.bluephs.miocore.item.ModItems;
 import net.bluephs.miocore.recipe.MiocoreBlasterRecipe;
 import net.bluephs.miocore.screen.MiocoreBlasterScreenHandler;
 import net.bluephs.miocore.util.inventory.ImplementedInventory;
@@ -20,7 +19,6 @@ import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -41,22 +39,22 @@ public class MiocoreBlasterBlockEntity extends BlockEntity implements NamedScree
         this.propertyDelegate = new PropertyDelegate() {
             @Override
             public int get(int index) {
-                switch (index){
-                    case 0: return MiocoreBlasterBlockEntity.this.progress;
-                    case 1: return MiocoreBlasterBlockEntity.this.maxProgress;
-                    case 2: return MiocoreBlasterBlockEntity.this.fuelTime;
-                    case 3: return MiocoreBlasterBlockEntity.this.maxFuelTime;
-                    default: return 0;
-                }
+                return switch (index) {
+                    case 0 -> MiocoreBlasterBlockEntity.this.progress;
+                    case 1 -> MiocoreBlasterBlockEntity.this.maxProgress;
+                    case 2 -> MiocoreBlasterBlockEntity.this.fuelTime;
+                    case 3 -> MiocoreBlasterBlockEntity.this.maxFuelTime;
+                    default -> 0;
+                };
             }
 
             @Override
             public void set(int index, int value) {
                 switch (index) {
-                    case 0: MiocoreBlasterBlockEntity.this.progress = value; break;
-                    case 1: MiocoreBlasterBlockEntity.this.maxProgress = value; break;
-                    case 2: MiocoreBlasterBlockEntity.this.fuelTime = value; break;
-                    case 3: MiocoreBlasterBlockEntity.this.maxFuelTime = value; break;
+                    case 0 -> MiocoreBlasterBlockEntity.this.progress = value;
+                    case 1 -> MiocoreBlasterBlockEntity.this.maxProgress = value;
+                    case 2 -> MiocoreBlasterBlockEntity.this.fuelTime = value;
+                    case 3 -> MiocoreBlasterBlockEntity.this.maxFuelTime = value;
                 }
             }
 
@@ -143,6 +141,7 @@ public class MiocoreBlasterBlockEntity extends BlockEntity implements NamedScree
             inventory.setStack(i, entity.getStack(i));
         }
 
+        assert world != null;
         Optional<MiocoreBlasterRecipe> match = world.getRecipeManager()
                 .getFirstMatch(MiocoreBlasterRecipe.Type.INSTANCE, inventory, world);
 
@@ -157,6 +156,7 @@ public class MiocoreBlasterBlockEntity extends BlockEntity implements NamedScree
             inventory.setStack(i, entity.getStack(i));
         }
 
+        assert world != null;
         Optional<MiocoreBlasterRecipe> match = world.getRecipeManager()
                 .getFirstMatch(MiocoreBlasterRecipe.Type.INSTANCE, inventory, world);
 

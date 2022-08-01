@@ -11,7 +11,6 @@ import net.bluephs.miocore.item.ModItemGroup;
 import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
@@ -159,7 +158,6 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
     public static final Block CHERRY_TREE_PLANKS = registerBlock("cherry_tree_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).requiresTool()), ModItemGroup.Mio);
-
     public static final Block CHERRY_TREE_STAIRS = registerBlock("cherry_tree_stairs",
             new ModStairsBlock(ModBlocks.CHERRY_TREE_PLANKS.getDefaultState(),
                     FabricBlockSettings.of(Material.WOOD).strength(4.5f).requiresTool()), ModItemGroup.Mio);
@@ -191,8 +189,8 @@ public class ModBlocks {
         return Registry.register(Registry.BLOCK, new Identifier(MioCore.MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block, ItemGroup group, String tooltipKey) {
-        return Registry.register(Registry.ITEM, new Identifier(MioCore.MOD_ID, name),
+    private static void registerBlockItem(String name, Block block, ItemGroup group, String tooltipKey) {
+        Registry.register(Registry.ITEM, new Identifier(MioCore.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(group)) {
                     @Override
                     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
@@ -210,8 +208,8 @@ public class ModBlocks {
         return Registry.register(Registry.BLOCK, new Identifier(MioCore.MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block, ItemGroup group) {
-        return Registry.register(Registry.ITEM, new Identifier(MioCore.MOD_ID, name),
+    private static void registerBlockItem(String name, Block block, ItemGroup group) {
+        Registry.register(Registry.ITEM, new Identifier(MioCore.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(group)));
     }
 
