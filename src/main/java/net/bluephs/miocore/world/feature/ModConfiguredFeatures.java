@@ -1,8 +1,8 @@
 package net.bluephs.miocore.world.feature;
 
 import net.bluephs.miocore.MioCore;
-import net.bluephs.miocore.block.ModBlocks;
 import net.bluephs.miocore.block.ModOreBlocks;
+import net.bluephs.miocore.block.ModWoodStuff;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.feature.*;
@@ -16,15 +16,15 @@ import java.util.List;
 public class ModConfiguredFeatures {
     public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> MAHAGONY_TREE =
             ConfiguredFeatures.register("mahagony_tree", Feature.TREE, new TreeFeatureConfig.Builder(
-                    BlockStateProvider.of(ModBlocks.MAHAGONY_LOG),
+                    BlockStateProvider.of(ModWoodStuff.MAHAGONY_LOG),
                     new StraightTrunkPlacer(5,6,3),
-                    BlockStateProvider.of(ModBlocks.MAHAGONY_LEAVES),
+                    BlockStateProvider.of(ModWoodStuff.MAHAGONY_LEAVES),
                     new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
                     new TwoLayersFeatureSize(1,0,2)).build());
 
     public static final RegistryEntry<PlacedFeature> MAHAGONY_CHECKED =
             PlacedFeatures.register("mahagony_checked", MAHAGONY_TREE,
-                    PlacedFeatures.wouldSurvive(ModBlocks.MAHAGONY_SAPLING));
+                    PlacedFeatures.wouldSurvive(ModWoodStuff.MAHAGONY_SAPLING));
 
     public static final RegistryEntry<ConfiguredFeature<RandomFeatureConfig, ?>> MAHAGONY_SPAWN =
             ConfiguredFeatures.register("mahagony_spawn", Feature.RANDOM_SELECTOR,
@@ -33,15 +33,15 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> ASH_TREE =
             ConfiguredFeatures.register("ash_tree", Feature.TREE, new TreeFeatureConfig.Builder(
-                    BlockStateProvider.of(ModBlocks.ASH_TREE_LOG),
+                    BlockStateProvider.of(ModWoodStuff.ASH_TREE_LOG),
                     new StraightTrunkPlacer(5,6,3),
-                    BlockStateProvider.of(ModBlocks.ASH_TREE_LEAVES),
+                    BlockStateProvider.of(ModWoodStuff.ASH_TREE_LEAVES),
                     new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
                     new TwoLayersFeatureSize(1,0,2)).build());
 
     public static final RegistryEntry<PlacedFeature> ASH_TREE_CHECKED =
             PlacedFeatures.register("ash_tree_checked", ASH_TREE,
-                    PlacedFeatures.wouldSurvive(ModBlocks.ASH_TREE_SAPLING));
+                    PlacedFeatures.wouldSurvive(ModWoodStuff.ASH_TREE_SAPLING));
 
     public static final RegistryEntry<ConfiguredFeature<RandomFeatureConfig, ?>> ASH_TREE_SPAWN =
             ConfiguredFeatures.register("ash_tree_spawn", Feature.RANDOM_SELECTOR,
@@ -50,15 +50,15 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> CHERRY_TREE =
             ConfiguredFeatures.register("cherry_tree", Feature.TREE, new TreeFeatureConfig.Builder(
-                    BlockStateProvider.of(ModBlocks.CHERRY_TREE_LOG),
+                    BlockStateProvider.of(ModWoodStuff.CHERRY_TREE_LOG),
                     new StraightTrunkPlacer(5,6,3),
-                    BlockStateProvider.of(ModBlocks.CHERRY_TREE_LEAVES),
+                    BlockStateProvider.of(ModWoodStuff.CHERRY_TREE_LEAVES),
                     new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
                     new TwoLayersFeatureSize(1,0,2)).build());
 
     public static final RegistryEntry<PlacedFeature> CHERRY_TREE_CHECKED =
             PlacedFeatures.register("cherry_tree_checked", CHERRY_TREE,
-                    PlacedFeatures.wouldSurvive(ModBlocks.CHERRY_TREE_SAPLING));
+                    PlacedFeatures.wouldSurvive(ModWoodStuff.CHERRY_TREE_SAPLING));
 
     public static final RegistryEntry<ConfiguredFeature<RandomFeatureConfig, ?>> CHERRY_TREE_SPAWN =
             ConfiguredFeatures.register("cherry_tree_spawn", Feature.RANDOM_SELECTOR,
