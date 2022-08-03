@@ -1,5 +1,5 @@
 {
-  "type": "miocore:miocore_blaster",
+  "type": "miocore:miocore_blasting",
   "ingredients": [
     {
       "item": "minecraft:sand"

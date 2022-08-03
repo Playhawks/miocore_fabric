@@ -66,12 +66,12 @@ public class MiocoreBlasterRecipe implements Recipe<SimpleInventory> {
     public static class Type implements RecipeType<MiocoreBlasterRecipe>{
         private Type() {}
         public static final Type INSTANCE = new Type();
-        public static final String ID = "miocore_blaster";
+        public static final String ID = "miocore_blasting";
     }
 
     public static class Serializer implements RecipeSerializer<MiocoreBlasterRecipe> {
         public static final Serializer INSTANCE = new Serializer();
-        public static final String ID = "miocore_blaster";
+        public static final String ID = "miocore_blasting";
         // this is the name given in the json file
 
         @Override

@@ -1,28 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "*-*",
-    "~#-",
-    "Y~X"
+    "YZY",
+    "XXX",
+    "ZYZ"
   ],
   "key": {
-    "#": {
+    "X": {
       "item": "minecraft:furnace"
     },
-    "*": {
+    "Y": {
       "item": "miocore:lead_ingot"
     },
-    "~": {
-      "item": "miocore:nickel_ingot"
-    },
-    "-": {
+    "Z": {
       "item": "miocore:aluminium_ingot"
-    },
-    "Y": {
-      "item": "miocore:platin_ingot"
-    },
-    "X": {
-      "item": "miocore:silver_ingot"
     }
   },
   "result": {
