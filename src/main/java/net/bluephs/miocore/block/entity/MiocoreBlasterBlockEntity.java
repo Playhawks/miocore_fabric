@@ -165,7 +165,7 @@ public class MiocoreBlasterBlockEntity extends BlockEntity implements NamedScree
             entity.removeStack(2,1);
 
             entity.setStack(3, new ItemStack(match.get().getOutput().getItem(),
-                    entity.getStack(3).getCount() + 2));
+                    entity.getStack(3).getCount() + 1));
 
             entity.resetProgress();
         }
