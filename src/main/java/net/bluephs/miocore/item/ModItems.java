@@ -5,7 +5,6 @@ import net.bluephs.miocore.item.custom.DowsingRodItem;
 import net.bluephs.miocore.item.custom.ModAxeItem;
 import net.bluephs.miocore.item.custom.ModHoeItem;
 import net.bluephs.miocore.item.custom.ModPickaxeItem;
-import net.fabricmc.fabric.api.item.v1.CustomDamageHandler;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ShovelItem;
@@ -28,29 +27,29 @@ public class ModItems {
     //region Tools
 
     public static final Item PLATINUM_SHOVEL = registerItem("platinum_shovel",
-            new ShovelItem(ModToolMaterials.PLATIN_TOOL, 0f, -4,
+            new ShovelItem(ModToolMaterials.PLATINUMTOOL, 0f, 0f,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
     public static final Item PLATINUM_AXE = registerItem("platinum_axe",
-            new ModAxeItem(ModToolMaterials.PLATIN_TOOL, 0f, -4,
+            new ModAxeItem(ModToolMaterials.PLATINUMTOOL, 0f, 0f,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
     public static final Item PLATINUM_HOE = registerItem("platinum_hoe",
-            new ModHoeItem(ModToolMaterials.PLATIN_TOOL, 0,-4,
+            new ModHoeItem(ModToolMaterials.PLATINUMTOOL, 0,0f,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
     public static final Item PLATINUM_PICKAXE = registerItem("platinum_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.PLATIN_TOOL, 0, -4,
+            new ModPickaxeItem(ModToolMaterials.PLATINUMTOOL, 0, 0f,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
 
     public static final Item OSMIUM_SHOVEL = registerItem("osmium_shovel",
-            new ShovelItem(ModToolMaterials.OSMIUM_TOOL, 0, -4,
+            new ShovelItem(ModToolMaterials.OSMIUMTOOL, 0, 0f,
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
     public static final Item OSMIUM_AXE = registerItem("osmium_axe",
-            new ModAxeItem(ModToolMaterials.OSMIUM_TOOL, 0, -4,
+            new ModAxeItem(ModToolMaterials.OSMIUMTOOL, 0, 0f,
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
     public static final Item OSMIUM_HOE = registerItem("osmium_hoe",
-            new ModHoeItem(ModToolMaterials.OSMIUM_TOOL, 0, -4,
+            new ModHoeItem(ModToolMaterials.OSMIUMTOOL, 0, 0f,
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
     public static final Item OSMIUM_PICKAXE = registerItem("osmium_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.OSMIUM_TOOL, 0, -4,
+            new ModPickaxeItem(ModToolMaterials.OSMIUMTOOL, 0, 0f,
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
 
     //endregion
@@ -74,7 +73,7 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.Mio)));
 
     public static final Item PLATINUM_SWORD = registerItem("platinum_sword",
-            new SwordItem(ModToolMaterials.PLATIN, 1, 1f,
+            new SwordItem(ModToolMaterials.PLATINUM, 1, 1f,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
 
     public static final Item OSMIUM_SWORD = registerItem("osmium_sword",
