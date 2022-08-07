@@ -38,6 +38,22 @@
   "item.miocore.dowsing_rod.tooltip.shift": "Rechtsklick um Mineralien zu finden",
   "item.miocore.dowsing_rod.tooltip": "Drücke §eSHIFT§r für mehr Informationen",
 
+  "item.miocore.platinum_shovel": "Platinschaufel",
+  "item.miocore.platinum_axe": "Platinaxt",
+  "item.miocore.platinum_hoe": "Platinhacke",
+  "item.miocore.platinum_pickaxe": "Platinspitzhacke",
+
+  "item.miocore.osmium_shovel": "Osmiumschaufel",
+  "item.miocore.osmium_axe": "Osmiumaxt",
+  "item.miocore.osmium_hoe": "Osmiumhacke",
+  "item.miocore.osmium_pickaxe": "Osmiumspitzhacke",
+
+  "item.miocore.nickel_sword": "Nickelschwert",
+  "item.miocore.lead_sword": "Bleischwert",
+  "item.miocore.aluminium_sword": "Aluminiumschwert",
+  "item.miocore.silver_sword": "Silberschwert",
+  "item.miocore.platinum_sword": "Platinschwert",
+  "item.miocore.osmium_sword": "Osmiumschwert",
 
   "block.miocore.nickel_ore": "Nickelerz",
   "block.miocore.lead_ore": "Bleierz",

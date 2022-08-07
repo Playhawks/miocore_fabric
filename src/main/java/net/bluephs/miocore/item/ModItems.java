@@ -28,58 +28,58 @@ public class ModItems {
     //region Tools
 
     public static final Item PLATINUM_SHOVEL = registerItem("platinum_shovel",
-            new ShovelItem(ModToolMaterials.PLATIN, 0, 1f,
+            new ShovelItem(ModToolMaterials.PLATIN_TOOL, 0f, -4,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
     public static final Item PLATINUM_AXE = registerItem("platinum_axe",
-            new ModAxeItem(ModToolMaterials.PLATIN, 3, 1f,
+            new ModAxeItem(ModToolMaterials.PLATIN_TOOL, 0f, -4,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
     public static final Item PLATINUM_HOE = registerItem("platinum_hoe",
-            new ModHoeItem(ModToolMaterials.PLATIN, 0, 0f,
+            new ModHoeItem(ModToolMaterials.PLATIN_TOOL, 0,-4,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
     public static final Item PLATINUM_PICKAXE = registerItem("platinum_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.PLATIN, 1, 0,
+            new ModPickaxeItem(ModToolMaterials.PLATIN_TOOL, 0, -4,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
 
     public static final Item OSMIUM_SHOVEL = registerItem("osmium_shovel",
-            new ShovelItem(ModToolMaterials.OSMIUM, 0, 1f,
-                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
+            new ShovelItem(ModToolMaterials.OSMIUM_TOOL, 0, -4,
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
     public static final Item OSMIUM_AXE = registerItem("osmium_axe",
-            new ModAxeItem(ModToolMaterials.OSMIUM, 3, 1f,
-                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
+            new ModAxeItem(ModToolMaterials.OSMIUM_TOOL, 0, -4,
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
     public static final Item OSMIUM_HOE = registerItem("osmium_hoe",
-            new ModHoeItem(ModToolMaterials.OSMIUM, 0, 0f,
-                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
+            new ModHoeItem(ModToolMaterials.OSMIUM_TOOL, 0, -4,
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
     public static final Item OSMIUM_PICKAXE = registerItem("osmium_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.OSMIUM, 1, 0,
-                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
+            new ModPickaxeItem(ModToolMaterials.OSMIUM_TOOL, 0, -4,
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
 
     //endregion
 
     //region Swords
 
     public static final Item NICKEL_SWORD = registerItem("nickel_sword",
-            new SwordItem(ModToolMaterials.NICKEL, 1, 2f,
+            new SwordItem(ModToolMaterials.NICKEL, 1, -2.4f,
                     new FabricItemSettings().group(ModItemGroup.Mio)));
 
     public static final Item LEAD_SWORD = registerItem("lead_sword",
-            new SwordItem(ModToolMaterials.LEAD, 1, 2f,
+            new SwordItem(ModToolMaterials.LEAD, 1, -2f,
                     new FabricItemSettings().group(ModItemGroup.Mio)));
 
     public static final Item ALUMINIUM_SWORD = registerItem("aluminium_sword",
-            new SwordItem(ModToolMaterials.ALUMINIUM, 1, 2f,
+            new SwordItem(ModToolMaterials.ALUMINIUM, 1, -1f,
                     new FabricItemSettings().group(ModItemGroup.Mio)));
 
     public static final Item SILVER_SWORD = registerItem("silver_sword",
-            new SwordItem(ModToolMaterials.SILVER, 1, 2f,
+            new SwordItem(ModToolMaterials.SILVER, 1, 0f,
                     new FabricItemSettings().group(ModItemGroup.Mio)));
 
     public static final Item PLATINUM_SWORD = registerItem("platinum_sword",
-            new SwordItem(ModToolMaterials.PLATIN, 1, 2f,
-                    new FabricItemSettings().group(ModItemGroup.Mio)));
+            new SwordItem(ModToolMaterials.PLATIN, 1, 1f,
+                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.Mio)));
 
     public static final Item OSMIUM_SWORD = registerItem("osmium_sword",
             new SwordItem(ModToolMaterials.OSMIUM, 1, 2f,
-                    new FabricItemSettings().group(ModItemGroup.Mio)));
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.Mio)));
 
     //endregion
 

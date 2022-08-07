@@ -38,6 +38,22 @@
   "item.miocore.dowsing_rod.tooltip.shift": "Right Click to find valuables",
   "item.miocore.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
 
+  "item.miocore.platinum_shovel": "Platinum Shovel",
+  "item.miocore.platinum_axe": "Platinum Axe",
+  "item.miocore.platinum_hoe": "Platinum Hoe",
+  "item.miocore.platinum_pickaxe": "Platinum Pickaxe",
+
+  "item.miocore.osmium_shovel": "Osmium Shovel",
+  "item.miocore.osmium_axe": "Osmium Axe",
+  "item.miocore.osmium_hoe": "Osmium Hoe",
+  "item.miocore.osmium_pickaxe": "Osmium Pickaxe",
+
+  "item.miocore.nickel_sword": "Nickel Sword",
+  "item.miocore.lead_sword": "Lead Sword",
+  "item.miocore.aluminium_sword": "Aluminium Sword",
+  "item.miocore.silver_sword": "Silver Sword",
+  "item.miocore.platinum_sword": "Platinum Sword",
+  "item.miocore.osmium_sword": "Osmium Sword",
 
   "block.miocore.nickel_ore": "Nickel Ore",
   "block.miocore.lead_ore": "Lead Ore",

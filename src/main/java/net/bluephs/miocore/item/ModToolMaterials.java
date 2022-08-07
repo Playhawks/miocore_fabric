@@ -8,22 +8,28 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    NICKEL(2, 1561, 8.0F, 2.5F, 24, () -> {
+    NICKEL(2, 164, 8.0F, 6.0F, 24, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModIngotItems.NICKEL_INGOT});
     }),
-    LEAD(2, 1561, 8.0F, 2.5F, 24, () -> {
+    LEAD(2, 313, 8.0F, 9.0F, 24, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModIngotItems.LEAD_INGOT});
     }),
-    ALUMINIUM(2, 1561, 8.0F, 2.5F, 24, () -> {
+    ALUMINIUM(2, 391, 8.0F, 12.0F, 24, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModIngotItems.ALUMINIUM_INGOT});
     }),
-    SILVER(3, 1951, 12.0F, 3.5F, 24, () -> {
+    SILVER(3, 1951, 12.0F, 16.0F, 24, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModIngotItems.SILVER_INGOT});
     }),
-    PLATIN(3, 1951, 12.0F, 3.5F, 24, () -> {
+    PLATIN(3, 2015, 12.0F, 20F, 24, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModIngotItems.PLATINUM_INGOT});
     }),
-    OSMIUM(4, 4063, 15.0F, 6.0F, 24, () -> {
+    OSMIUM(4, 4062, 15.0F, 38.0F, 24, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{ModIngotItems.OSMIUM_INGOT});
+    }),
+    PLATIN_TOOL(3, 2015, 12.0F, -1.0F, 24, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{ModIngotItems.PLATINUM_INGOT});
+    }),
+    OSMIUM_TOOL(4, 4062, 15.0F, -1.0F, 24, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModIngotItems.OSMIUM_INGOT});
     });
 
