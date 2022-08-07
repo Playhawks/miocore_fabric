@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " X ",
+    "YXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "miocore:lead_ingot"
+    },
+    "Y": {
+      "item": "minecraft:iron_sword"
+    },
+    "Z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "miocore:lead_sword"
+  }
+}

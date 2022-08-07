@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " X ",
+    "YXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "miocore:silver_ingot"
+    },
+    "Y": {
+      "item": "minecraft:diamond_sword"
+    },
+    "Z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "miocore:silver_sword"
+  }
+}

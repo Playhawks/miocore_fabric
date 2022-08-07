@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " X ",
+    "YXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "miocore:osmium_ingot"
+    },
+    "Y": {
+      "item": "minecraft:netherite_sword"
+    },
+    "Z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "miocore:osmium_sword"
+  }
+}

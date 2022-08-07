@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " X ",
+    "YXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "miocore:nickel_ingot"
+    },
+    "Y": {
+      "item": "minecraft:stone_sword"
+    },
+    "Z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "miocore:nickel_sword"
+  }
+}
