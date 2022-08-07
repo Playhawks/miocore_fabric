@@ -7,8 +7,6 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    PLATINUMTOOL(3, 2015, 12.0F, 2.0F, 10, () -> Ingredient.ofItems(ModNuggetItems.PLATINUM_NUGGET)),
-    OSMIUMTOOL(4, 4062, 15.0F, 2.0F, 15, () -> Ingredient.ofItems(ModNuggetItems.OSMIUM_NUGGET)),
     NICKEL(2, 164, 2.0F, 6.0F, 14, () -> Ingredient.ofItems(ModIngotItems.NICKEL_INGOT)),
     LEAD(2, 313, 4.0F, 9.0F, 15, () -> Ingredient.ofItems(ModIngotItems.LEAD_INGOT)),
     ALUMINIUM(2, 391, 6.0F, 12.0F, 14, () -> Ingredient.ofItems(ModIngotItems.ALUMINIUM_INGOT)),
