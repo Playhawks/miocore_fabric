@@ -24,26 +24,26 @@ public class ModBlocks {
     //region Blocks
 
     public static final Block NICKEL_BLOCK = registerBlock("nickel_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.MIO);
     public static final Block LEAD_BLOCK = registerBlock("lead_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.MIO);
     public static final Block ALUMINIUM_BLOCK = registerBlock("aluminium_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.MIO);
     public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.MIO);
     public static final Block SILVER_BLOCK = registerBlock("silver_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.MIO);
     public static final Block ARDITE_BLOCK = registerBlock("ardite_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.MIO);
     public static final Block OSMIUM_BLOCK = registerBlock("osmium_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Mio);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.MIO);
 
     //endregion
 
     //region Special Blocks
 
     public static final Block MIOCORE_BLASTER = registerBlock("miocore_blaster",
-            new MiocoreBlasterBlock(FabricBlockSettings.of(Material.METAL).nonOpaque()), ModItemGroup.Mio);
+            new MiocoreBlasterBlock(FabricBlockSettings.of(Material.METAL).nonOpaque()), ModItemGroup.MIO);
 
     //endregion
 
