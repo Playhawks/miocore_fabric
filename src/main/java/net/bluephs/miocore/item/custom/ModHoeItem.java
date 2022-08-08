@@ -1,4 +1,4 @@
-package net.bluephs.miocore.item.tools.custom;
+package net.bluephs.miocore.item.custom;
 
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.ToolMaterial;

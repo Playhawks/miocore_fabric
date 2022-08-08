@@ -8,5 +8,5 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup MIO = FabricItemGroupBuilder.build(new Identifier(MioCore.MOD_ID, "mio"),
-            () -> new ItemStack(ModIngotItems.PLATINUM_INGOT));
+            () -> new ItemStack(ModItems.PLATINUM_INGOT));
 }

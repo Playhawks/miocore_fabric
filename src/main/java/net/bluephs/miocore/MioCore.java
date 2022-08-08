@@ -1,12 +1,8 @@
 package net.bluephs.miocore;
 
 import net.bluephs.miocore.block.ModBlocks;
-import net.bluephs.miocore.block.ModOreBlocks;
-import net.bluephs.miocore.block.ModWoodStuff;
 import net.bluephs.miocore.block.entity.ModBlockEntities;
 import net.bluephs.miocore.item.*;
-import net.bluephs.miocore.item.tools.ModSwordItems;
-import net.bluephs.miocore.item.tools.ModToolItems;
 import net.bluephs.miocore.recipe.ModRecipes;
 import net.bluephs.miocore.screen.ModScreenHandlers;
 import net.bluephs.miocore.util.ModRegistries;
@@ -24,16 +20,8 @@ public class MioCore implements ModInitializer {
 	public void onInitialize() {
 		ModConfiguredFeatures.registerConfiguredFeatures();
 
-		ModIngotItems.registerModIngotItems();
-		ModSwordItems.registerModSwordItems();
-		ModToolItems.registerModToolItems();
-		ModNuggetItems.registerModNuggetItems();
-		ModRawItems.registerModRawItems();
 		ModItems.registerModItems();
-		ModFluidItems.registerModFluidItems();
-		ModOreBlocks.registerModOreBlocks();
 		ModBlocks.registerModBlocks();
-		ModWoodStuff.registerModWoodStuff();
 
 		ModRegistries.registerModStuffs();
 
