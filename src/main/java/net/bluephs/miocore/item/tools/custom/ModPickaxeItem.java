@@ -1,4 +1,4 @@
-package net.bluephs.miocore.item.custom;
+package net.bluephs.miocore.item.tools.custom;
 
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
