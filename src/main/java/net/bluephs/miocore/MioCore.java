@@ -25,12 +25,12 @@ public class MioCore implements ModInitializer {
 		ModConfiguredFeatures.registerConfiguredFeatures();
 
 		ModIngotItems.registerModIngotItems();
+		ModSwordItems.registerModSwordItems();
+		ModToolItems.registerModToolItems();
 		ModNuggetItems.registerModNuggetItems();
 		ModRawItems.registerModRawItems();
 		ModItems.registerModItems();
 		ModFluidItems.registerModFluidItems();
-		ModSwordItems.registerModSwordItems();
-		ModToolItems.registerModToolItems();
 		ModOreBlocks.registerModOreBlocks();
 		ModBlocks.registerModBlocks();
 		ModWoodStuff.registerModWoodStuff();
