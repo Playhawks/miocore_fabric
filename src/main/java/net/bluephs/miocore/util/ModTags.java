@@ -24,6 +24,7 @@ public class ModTags {
     public static class Items {
         public static final TagKey<Item> NICKEL_INGOTS = createCommonTag("nickel_ingots");
         public static final TagKey<Item> NICKEL_NUGGETS = createCommonTag("nickel_nuggets");
+        public static final TagKey<Item> RAW_NICKEL = createCommonTag("raw_nickel");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY,new Identifier(MioCore.MOD_ID, name));

@@ -13,7 +13,7 @@ public enum ModToolMaterials implements ToolMaterial {
     ALUMINIUM(MiningLevels.IRON, 391, 6.0F, 12.0F, 14, () -> Ingredient.ofItems(ModItems.ALUMINIUM_INGOT)),
     SILVER(MiningLevels.DIAMOND, 1951, 8.0F, 16.0F, 10, () -> Ingredient.ofItems(ModItems.SILVER_INGOT)),
     PLATINUM(MiningLevels.DIAMOND, 2015, 8.0F, 20F, 10, () -> Ingredient.ofItems(ModItems.PLATINUM_INGOT)),
-    OSMIUM(MiningLevels.DIAMOND, 4062, 9.0F, 38.0F, 15, () -> Ingredient.ofItems(ModItems.OSMIUM_INGOT));
+    OSMIUM(MiningLevels.NETHERITE, 4062, 9.0F, 38.0F, 15, () -> Ingredient.ofItems(ModItems.OSMIUM_INGOT));
 
 
     private final int miningLevel;
@@ -29,7 +29,7 @@ public enum ModToolMaterials implements ToolMaterial {
         this.miningSpeed = miningSpeed;
         this.attackDamage = attackDamage;
         this.enchantability = enchantability;
-        this.repairIngredient = new Lazy<Ingredient>(repairIngredient);
+        this.repairIngredient = new Lazy<>(repairIngredient);
     }
 
     public int getDurability() {
