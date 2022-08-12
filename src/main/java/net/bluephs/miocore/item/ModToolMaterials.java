@@ -8,11 +8,11 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    NICKEL(MiningLevels.IRON, 164, 6.0f, 6.0f, 14, () -> Ingredient.ofItems(ModItems.NICKEL_INGOT)),
-    LEAD(MiningLevels.IRON, 313, 6.0f, 9.0f, 15, () -> Ingredient.ofItems(ModItems.LEAD_INGOT)),
-    ALUMINIUM(MiningLevels.IRON, 391, 6.0f, 12.0f, 14, () -> Ingredient.ofItems(ModItems.ALUMINIUM_INGOT)),
-    SILVER(MiningLevels.DIAMOND, 1951, 8.0f, 16.0f, 10, () -> Ingredient.ofItems(ModItems.SILVER_INGOT)),
-    PLATINUM(MiningLevels.DIAMOND, 2015, 8.0f, 20f, 10, () -> Ingredient.ofItems(ModItems.PLATINUM_INGOT)),
+    NICKEL(MiningLevels.IRON, 164, 6.0f, 6.0f, 10, () -> Ingredient.ofItems(ModItems.NICKEL_INGOT)),
+    LEAD(MiningLevels.IRON, 313, 6.0f, 9.0f, 10, () -> Ingredient.ofItems(ModItems.LEAD_INGOT)),
+    ALUMINIUM(MiningLevels.IRON, 391, 6.0f, 12.0f, 19, () -> Ingredient.ofItems(ModItems.ALUMINIUM_INGOT)),
+    SILVER(MiningLevels.DIAMOND, 1951, 8.0f, 16.0f, 14, () -> Ingredient.ofItems(ModItems.SILVER_INGOT)),
+    PLATINUM(MiningLevels.DIAMOND, 2015, 8.0f, 20f, 14, () -> Ingredient.ofItems(ModItems.PLATINUM_INGOT)),
     OSMIUM(MiningLevels.NETHERITE, 4062, 9.0f, 38.0f, 15, () -> Ingredient.ofItems(ModItems.OSMIUM_INGOT));
 
 
