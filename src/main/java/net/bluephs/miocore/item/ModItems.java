@@ -113,11 +113,11 @@ public class ModItems {
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
 
     public static final Item PLATINUM_SHOVEL = registerItem("platinum_shovel",
-            new ShovelItem(ModToolMaterials.PLATINUM, 0, 1f,
+            new ShovelItem(ModToolMaterials.PLATINUM, 1, 2f,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
 
     public static final Item PLATINUM_PICKAXE = registerItem("platinum_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.PLATINUM, 1, 0f,
+            new ModPickaxeItem(ModToolMaterials.PLATINUM, 1, 2f,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
 
 
@@ -134,7 +134,7 @@ public class ModItems {
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
 
     public static final Item OSMIUM_PICKAXE = registerItem("osmium_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.OSMIUM, 1, 0f,
+            new ModPickaxeItem(ModToolMaterials.OSMIUM, 1, 2f,
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
 
     //endregion
