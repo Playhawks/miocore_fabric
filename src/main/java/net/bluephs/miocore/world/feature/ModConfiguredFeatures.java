@@ -70,7 +70,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> NICKEL_ORE =
             ConfiguredFeatures.register("nickel_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_NICKEL_ORE, 10));
+                    new OreFeatureConfig(OVERWORLD_NICKEL_ORE, 9));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_DEEPSLATE_NICKEL_ORE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
@@ -78,7 +78,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DEEPSLATE_NICKEL_ORE =
             ConfiguredFeatures.register("deepslate_nickel_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_DEEPSLATE_NICKEL_ORE, 8));
+                    new OreFeatureConfig(OVERWORLD_DEEPSLATE_NICKEL_ORE, 9));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_LEAD_ORE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
@@ -109,7 +109,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DEEPSLATE_ALUMINIUM_ORE =
             ConfiguredFeatures.register("deepslate_aluminium_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_DEEPSLATE_ALUMINIUM_ORE, 6));
+                    new OreFeatureConfig(OVERWORLD_DEEPSLATE_ALUMINIUM_ORE, 7));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_PLATINUM_ORE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
@@ -133,7 +133,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> SILVER_ORE =
             ConfiguredFeatures.register("silver_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_SILVER_ORE, 5));
+                    new OreFeatureConfig(OVERWORLD_SILVER_ORE, 6));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_DEEPSLATE_SILVER_ORE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
@@ -141,7 +141,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DEEPSLATE_SILVER_ORE =
             ConfiguredFeatures.register("deepslate_silver_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_DEEPSLATE_SILVER_ORE, 5));
+                    new OreFeatureConfig(OVERWORLD_DEEPSLATE_SILVER_ORE, 6));
 
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_URANIUM_ORE = List.of(
@@ -150,7 +150,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> URANIUM_ORE =
             ConfiguredFeatures.register("uranium_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_URANIUM_ORE, 4));
+                    new OreFeatureConfig(OVERWORLD_URANIUM_ORE, 3));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_DEEPSLATE_URANIUM_ORE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
@@ -158,7 +158,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DEEPSLATE_URANIUM_ORE =
             ConfiguredFeatures.register("deepslate_uranium_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_DEEPSLATE_URANIUM_ORE, 4));
+                    new OreFeatureConfig(OVERWORLD_DEEPSLATE_URANIUM_ORE, 3));
 
     public static final List<OreFeatureConfig.Target> ORE_ARDITE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.NETHERRACK,

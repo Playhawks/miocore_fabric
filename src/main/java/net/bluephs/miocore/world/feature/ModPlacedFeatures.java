@@ -26,7 +26,7 @@ public class ModPlacedFeatures {
 
     public static final RegistryEntry<PlacedFeature> NICKEL_ORE_PLACED = PlacedFeatures.register("nickel_ore_placed",
             ModConfiguredFeatures.NICKEL_ORE, ModOreFeatures.modifiersWithCount(8,
-                    HeightRangePlacementModifier.uniform(YOffset.aboveBottom(139), YOffset.aboveBottom(159))));
+                    HeightRangePlacementModifier.uniform(YOffset.aboveBottom(109), YOffset.aboveBottom(129))));
 
     public static final RegistryEntry<PlacedFeature> DEEPSLATE_NICKEL_ORE_PLACED = PlacedFeatures.register("deepslate_nickel_ore_placed",
             ModConfiguredFeatures.DEEPSLATE_NICKEL_ORE, ModOreFeatures.modifiersWithCount(8,
@@ -34,7 +34,7 @@ public class ModPlacedFeatures {
 
     public static final RegistryEntry<PlacedFeature> LEAD_ORE_PLACED = PlacedFeatures.register("lead_ore_placed",
             ModConfiguredFeatures.LEAD_ORE, ModOreFeatures.modifiersWithCount(7,
-                    HeightRangePlacementModifier.uniform(YOffset.aboveBottom(119), YOffset.aboveBottom(139))));
+                    HeightRangePlacementModifier.uniform(YOffset.aboveBottom(89), YOffset.aboveBottom(109))));
 
     public static final RegistryEntry<PlacedFeature> DEEPSLATE_LEAD_ORE_PLACED = PlacedFeatures.register("deepslate_lead_ore_placed",
             ModConfiguredFeatures.DEEPSLATE_LEAD_ORE, ModOreFeatures.modifiersWithCount(7,
@@ -65,11 +65,11 @@ public class ModPlacedFeatures {
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.aboveBottom(72))));
 
     public static final RegistryEntry<PlacedFeature> URANIUM_ORE_PLACED = PlacedFeatures.register("uranium_ore_placed",
-            ModConfiguredFeatures.URANIUM_ORE, ModOreFeatures.modifiersWithCount(4,
+            ModConfiguredFeatures.URANIUM_ORE, ModOreFeatures.modifiersWithCount(3,
                     HeightRangePlacementModifier.uniform(YOffset.aboveBottom(74), YOffset.aboveBottom(79))));
 
     public static final RegistryEntry<PlacedFeature> DEEPSLATE_URANIUM_ORE_PLACED = PlacedFeatures.register("deepslate_uranium_ore_placed",
-            ModConfiguredFeatures.DEEPSLATE_URANIUM_ORE, ModOreFeatures.modifiersWithCount(4,
+            ModConfiguredFeatures.DEEPSLATE_URANIUM_ORE, ModOreFeatures.modifiersWithCount(3,
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.aboveBottom(72))));
 
     public static final RegistryEntry<PlacedFeature> ARDITE_ORE_PLACED = PlacedFeatures.register("ardite_ore_placed",
