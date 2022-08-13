@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    " Y ",
+    "  Z"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:platinum_shovel"
+    },
+    "Y": {
+      "item": "minecraft:platinum_pickaxe"
+    },
+    "Z": {
+      "item": "minecraft:platinum_axe"
+    }
+  },
+  "result": {
+    "item": "miocore:platinum_paxel"
+  }
+}

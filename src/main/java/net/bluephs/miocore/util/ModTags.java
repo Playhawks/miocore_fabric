@@ -11,6 +11,8 @@ public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> DOWSING_ROD_DETECTABLE_BLOCKS =
                 createTag("dowsing_rod_detectable_blocks");
+        public static final TagKey<Block> PAXEL_MINEABLE =
+                createTag("mineable/paxel");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(Registry.BLOCK_KEY, new Identifier(MioCore.MOD_ID, name));

@@ -1,6 +1,8 @@
 package net.bluephs.miocore.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
+import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.util.Lazy;
@@ -13,7 +15,10 @@ public enum ModToolMaterials implements ToolMaterial {
     ALUMINIUM(MiningLevels.IRON, 391, 6.0f, 12.0f, 19, () -> Ingredient.ofItems(ModItems.ALUMINIUM_INGOT)),
     SILVER(MiningLevels.DIAMOND, 1951, 8.0f, 16.0f, 14, () -> Ingredient.ofItems(ModItems.SILVER_INGOT)),
     PLATINUM(MiningLevels.DIAMOND, 2015, 8.0f, 20f, 14, () -> Ingredient.ofItems(ModItems.PLATINUM_INGOT)),
-    OSMIUM(MiningLevels.NETHERITE, 4062, 9.0f, 38.0f, 15, () -> Ingredient.ofItems(ModItems.OSMIUM_INGOT));
+    OSMIUM(MiningLevels.NETHERITE, 4062, 9.0f, 38.0f, 15, () -> Ingredient.ofItems(ModItems.OSMIUM_INGOT)),
+    DIAMONDPAXEL(MiningLevels.DIAMOND, 2341, 9.0F, 3.0F, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
+    PLATINUMPAXEL(MiningLevels.DIAMOND, 3022, 10.0F, 20.0F, 14, () -> Ingredient.ofItems(Items.DIAMOND)),
+    OSMIUMPAXEL(MiningLevels.DIAMOND, 6093, 11.0F, 38.0F, 15, () -> Ingredient.ofItems(Items.DIAMOND));
 
 
     private final int miningLevel;

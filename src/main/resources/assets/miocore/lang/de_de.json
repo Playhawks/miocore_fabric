@@ -55,6 +55,12 @@
   "item.miocore.platinum_sword": "Platinschwert",
   "item.miocore.osmium_sword": "Osmiumschwert",
 
+  "item.miocore.diamond_paxel": "Diamandmultitool",
+  "item.miocore.platinum_paxel": "Platinmultitool",
+  "item.miocore.osmium_paxel": "Osmiummultitool",
+
+  "item.miocore.osmium_bow": "Osmiumbogen",
+
   "block.miocore.nickel_ore": "Nickelerz",
   "block.miocore.lead_ore": "Bleierz",
   "block.miocore.aluminium_ore": "Aluminiumerz",

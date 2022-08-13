@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    " Y ",
+    "  Z"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond_shovel"
+    },
+    "Y": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "Z": {
+      "item": "minecraft:diamond_axe"
+    }
+  },
+  "result": {
+    "item": "miocore:diamond_paxel"
+  }
+}

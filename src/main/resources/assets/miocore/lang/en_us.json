@@ -55,6 +55,12 @@
   "item.miocore.platinum_sword": "Platinum Sword",
   "item.miocore.osmium_sword": "Osmium Sword",
 
+  "item.miocore.diamond_paxel": "Diamond Paxel",
+  "item.miocore.platinum_paxel": "Platinum Paxel",
+  "item.miocore.osmium_paxel": "Osmium Paxel",
+
+  "item.miocore.osmium_bow": "Osmium Bow",
+
   "block.miocore.nickel_ore": "Nickel Ore",
   "block.miocore.lead_ore": "Lead Ore",
   "block.miocore.aluminium_ore": "Aluminium Ore",

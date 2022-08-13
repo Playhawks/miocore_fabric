@@ -1,0 +1,6 @@
+{
+  "parent": "miocore:item/osmium_bow",
+  "textures": {
+    "layer0": "miocore:item/osmium_bow_pulling_1"
+  }
+}

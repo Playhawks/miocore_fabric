@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    " Y ",
+    "  Z"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:osmium_shovel"
+    },
+    "Y": {
+      "item": "minecraft:osmium_pickaxe"
+    },
+    "Z": {
+      "item": "minecraft:osmium_axe"
+    }
+  },
+  "result": {
+    "item": "miocore:osmium_paxel"
+  }
+}

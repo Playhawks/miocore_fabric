@@ -3,6 +3,7 @@ package net.bluephs.miocore;
 import net.bluephs.miocore.block.ModBlocks;
 import net.bluephs.miocore.screen.MiocoreBlasterScreen;
 import net.bluephs.miocore.screen.ModScreenHandlers;
+import net.bluephs.miocore.util.ModModelPredicateProvider;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
@@ -27,5 +28,7 @@ public class MioCoreClientMod implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MIOCORE_BLASTER, RenderLayer.getCutout());
 
         ScreenRegistry.register(ModScreenHandlers.MIOCORE_BLASTER_SCREEN_HANDLER, MiocoreBlasterScreen::new);
+
+        ModModelPredicateProvider.registerModModels();
     }
 }

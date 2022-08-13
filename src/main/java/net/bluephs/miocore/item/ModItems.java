@@ -1,10 +1,7 @@
 package net.bluephs.miocore.item;
 
 import net.bluephs.miocore.MioCore;
-import net.bluephs.miocore.item.custom.DowsingRodItem;
-import net.bluephs.miocore.item.custom.ModAxeItem;
-import net.bluephs.miocore.item.custom.ModHoeItem;
-import net.bluephs.miocore.item.custom.ModPickaxeItem;
+import net.bluephs.miocore.item.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
@@ -102,6 +99,13 @@ public class ModItems {
 
     //endregion
 
+    //region Bow Items
+
+    public static final Item OSMIUM_BOW = registerItem("osmium_bow",
+            new BowItem(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO).maxDamage(4062)));
+
+    //endregion
+
     //region Tools
 
     public static final Item PLATINUM_AXE = registerItem("platinum_axe",
@@ -135,6 +139,22 @@ public class ModItems {
 
     public static final Item OSMIUM_PICKAXE = registerItem("osmium_pickaxe",
             new ModPickaxeItem(ModToolMaterials.OSMIUM, 1, 2f,
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
+
+    //endregion
+
+    //region Paxel Items
+
+    public static final Item DIAMOND_PAXEL = registerItem("diamond_paxel",
+            new ModPaxelItem(ModToolMaterials.DIAMONDPAXEL, 1, 1f,
+                    new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.MIO)));
+
+    public static final Item PLATINUM_PAXEL = registerItem("platinum_paxel",
+            new ModPaxelItem(ModToolMaterials.PLATINUMPAXEL, 1, 1f,
+                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
+
+    public static final Item OSMIUM_PAXEL = registerItem("osmium_paxel",
+            new ModPaxelItem(ModToolMaterials.OSMIUMPAXEL, 1, 1f,
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
 
     //endregion
