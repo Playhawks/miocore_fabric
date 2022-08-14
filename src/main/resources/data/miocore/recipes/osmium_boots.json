@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "#Y#"
+  ],
+  "key": {
+    "#": {
+      "item": "miocore:osmium_ingot"
+    },
+    "Y": {
+      "item": "minecraft:netherite_boots"
+    }
+  },
+  "result": {
+    "item": "miocore:osmium_boots"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Y#",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "miocore:aluminium_ingot"
+    },
+    "Y": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "result": {
+    "item": "miocore:aluminium_leggings"
+  }
+}

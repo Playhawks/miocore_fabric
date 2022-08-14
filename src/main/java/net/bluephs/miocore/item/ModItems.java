@@ -3,6 +3,7 @@ package net.bluephs.miocore.item;
 import net.bluephs.miocore.MioCore;
 import net.bluephs.miocore.item.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
@@ -155,6 +156,49 @@ public class ModItems {
 
     public static final Item OSMIUM_PAXEL = registerItem("osmium_paxel",
             new ModPaxelItem(ModToolMaterials.OSMIUMPAXEL, 1, 1f,
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
+
+    //endregion
+
+    //region Armor Items
+
+    public static final Item ALUMINIUM_HELMET = registerItem("aluminium_helmet",
+            new ArmorItem(ModArmorMaterials.ALUMINIUM, EquipmentSlot.HEAD,
+                    new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.MIO)));
+    public static final Item ALUMINIUM_CHESTPLATE = registerItem("aluminium_chestplate",
+            new ArmorItem(ModArmorMaterials.ALUMINIUM, EquipmentSlot.CHEST,
+                    new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.MIO)));
+    public static final Item ALUMINIUM_LEGGINGS = registerItem("aluminium_leggings",
+            new ArmorItem(ModArmorMaterials.ALUMINIUM, EquipmentSlot.LEGS,
+                    new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.MIO)));
+    public static final Item ALUMINIUM_BOOTS = registerItem("aluminium_boots",
+            new ArmorItem(ModArmorMaterials.ALUMINIUM, EquipmentSlot.FEET,
+                    new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.MIO)));
+
+    public static final Item PLATINUM_HELMET = registerItem("platinum_helmet",
+            new ArmorItem(ModArmorMaterials.PLATINUM, EquipmentSlot.HEAD,
+                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
+    public static final Item PLATINUM_CHESTPLATE = registerItem("platinum_chestplate",
+            new ArmorItem(ModArmorMaterials.PLATINUM, EquipmentSlot.CHEST,
+                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
+    public static final Item PLATINUM_LEGGINGS = registerItem("platinum_leggings",
+            new ArmorItem(ModArmorMaterials.PLATINUM, EquipmentSlot.LEGS,
+                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
+    public static final Item PLATINUM_BOOTS = registerItem("platinum_boots",
+            new ArmorItem(ModArmorMaterials.PLATINUM, EquipmentSlot.FEET,
+                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
+
+    public static final Item OSMIUM_HELMET = registerItem("osmium_helmet",
+            new ArmorItem(ModArmorMaterials.OSMIUM, EquipmentSlot.HEAD,
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
+    public static final Item OSMIUM_CHESTPLATE = registerItem("osmium_chestplate",
+            new ArmorItem(ModArmorMaterials.OSMIUM, EquipmentSlot.CHEST,
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
+    public static final Item OSMIUM_LEGGINGS = registerItem("osmium_leggings",
+            new ArmorItem(ModArmorMaterials.OSMIUM, EquipmentSlot.LEGS,
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
+    public static final Item OSMIUM_BOOTS = registerItem("osmium_boots",
+            new ArmorItem(ModArmorMaterials.OSMIUM, EquipmentSlot.FEET,
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
 
     //endregion

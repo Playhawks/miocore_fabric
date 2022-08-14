@@ -61,6 +61,21 @@
 
   "item.miocore.osmium_bow": "Osmium Bow",
 
+  "item.miocore.aluminium_helmet": "Aluminium Helmet",
+  "item.miocore.aluminium_chestplate": "Aluminium Chestplate",
+  "item.miocore.aluminium_leggings": "Aluminium Leggings",
+  "item.miocore.aluminium_boots": "Aluminium Boots",
+
+  "item.miocore.platinum_helmet": "Platinum Helmet",
+  "item.miocore.platinum_chestplate": "Platinum Chestplate",
+  "item.miocore.platinum_leggings": "Platinum Leggings",
+  "item.miocore.platinum_boots": "Platinum Boots",
+
+  "item.miocore.osmium_helmet": "Osmium Helmet",
+  "item.miocore.osmium_chestplate": "Osmium Chestplate",
+  "item.miocore.osmium_leggings": "Osmium Leggings",
+  "item.miocore.osmium_boots": "Osmium Boots",
+
   "block.miocore.nickel_ore": "Nickel Ore",
   "block.miocore.lead_ore": "Lead Ore",
   "block.miocore.aluminium_ore": "Aluminium Ore",

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#Y#",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "miocore:platinum_ingot"
+    },
+    "Y": {
+      "item": "minecraft:diamond_helmet"
+    }
+  },
+  "result": {
+    "item": "miocore:platinum_helmet"
+  }
+}
