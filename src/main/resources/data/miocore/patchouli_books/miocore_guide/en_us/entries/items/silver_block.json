@@ -1,0 +1,16 @@
+{
+  "name": "Silver Block & Raw Item",
+  "icon": "miocore:raw_silver",
+  "category": "miocore:item_category",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:silver_block"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:raw_silver"
+    }
+  ]
+}

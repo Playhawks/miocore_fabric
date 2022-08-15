@@ -163,7 +163,7 @@ public class ModItems {
     //region Armor Items
 
     public static final Item ALUMINIUM_HELMET = registerItem("aluminium_helmet",
-            new ArmorItem(ModArmorMaterials.ALUMINIUM, EquipmentSlot.HEAD,
+            new AluminiumArmorItem(ModArmorMaterials.ALUMINIUM, EquipmentSlot.HEAD,
                     new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.MIO)));
     public static final Item ALUMINIUM_CHESTPLATE = registerItem("aluminium_chestplate",
             new ArmorItem(ModArmorMaterials.ALUMINIUM, EquipmentSlot.CHEST,
@@ -176,7 +176,7 @@ public class ModItems {
                     new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.MIO)));
 
     public static final Item PLATINUM_HELMET = registerItem("platinum_helmet",
-            new ArmorItem(ModArmorMaterials.PLATINUM, EquipmentSlot.HEAD,
+            new PlatinumArmorItem(ModArmorMaterials.PLATINUM, EquipmentSlot.HEAD,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
     public static final Item PLATINUM_CHESTPLATE = registerItem("platinum_chestplate",
             new ArmorItem(ModArmorMaterials.PLATINUM, EquipmentSlot.CHEST,
@@ -189,7 +189,7 @@ public class ModItems {
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
 
     public static final Item OSMIUM_HELMET = registerItem("osmium_helmet",
-            new ArmorItem(ModArmorMaterials.OSMIUM, EquipmentSlot.HEAD,
+            new OsmiumArmorItem(ModArmorMaterials.OSMIUM, EquipmentSlot.HEAD,
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
     public static final Item OSMIUM_CHESTPLATE = registerItem("osmium_chestplate",
             new ArmorItem(ModArmorMaterials.OSMIUM, EquipmentSlot.CHEST,

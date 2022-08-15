@@ -1,0 +1,16 @@
+{
+  "name": "Nickel Nugget & Ingot",
+  "icon": "miocore:nickel_nugget",
+  "category": "miocore:item_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:nickel_nugget"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:nickel_ingot"
+    }
+  ]
+}

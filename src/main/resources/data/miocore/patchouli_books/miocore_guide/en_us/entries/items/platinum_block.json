@@ -1,0 +1,16 @@
+{
+  "name": "Platinum Block & Raw Item",
+  "icon": "miocore:raw_platinum",
+  "category": "miocore:item_category",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:platinum_block"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:raw_platinum"
+    }
+  ]
+}

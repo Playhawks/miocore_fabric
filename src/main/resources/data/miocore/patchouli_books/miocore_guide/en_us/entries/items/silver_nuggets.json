@@ -1,0 +1,16 @@
+{
+  "name": "Silver Nugget & Ingot",
+  "icon": "miocore:silver_nugget",
+  "category": "miocore:item_category",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:silver_nugget"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:silver_ingot"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Miocore Guide",
+  "landing_text": "Hi $(playername) and welcome to our Miocore Mod. $(br2)This is a guide book or favor an InGame Wiki.",
+  "book_texture": "patchouli:textures/gui/book_blue.png",
+  "model": "patchouli:book_blue",
+  "creative_tab": "miocore.ModItemGroup.mio",
+  "show_progress": false,
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Ardite Block & Raw Item",
+  "icon": "miocore:raw_ardite",
+  "category": "miocore:item_category",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:ardite_block"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:raw_ardite"
+    }
+  ]
+}

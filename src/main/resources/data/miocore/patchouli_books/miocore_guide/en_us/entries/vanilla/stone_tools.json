@@ -1,0 +1,18 @@
+{
+  "name": "Stone Tools",
+  "icon": "minecraft:stone_sword",
+  "category": "miocore:vanilla_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_sword",
+      "recipe2": "minecraft:stone_pickaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_shovel",
+      "recipe2": "minecraft:stone_axe"
+    }
+  ]
+}

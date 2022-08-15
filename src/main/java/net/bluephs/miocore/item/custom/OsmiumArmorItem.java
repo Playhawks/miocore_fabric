@@ -18,7 +18,11 @@ public class OsmiumArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_STATUS_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
                     .put(ModArmorMaterials.OSMIUM,
-                            new StatusEffectInstance(StatusEffects.LUCK, 400, 2)).build();
+                            new StatusEffectInstance(StatusEffects.HASTE, 400, 2)).build();
+    private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_STATUS_EFFECT_MAP2 =
+            (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
+                    .put(ModArmorMaterials.OSMIUM,
+                            new StatusEffectInstance(StatusEffects.LUCK, 400, 3)).build();
 
     public OsmiumArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings){
         super(material, slot, settings);
@@ -32,6 +36,7 @@ public class OsmiumArmorItem extends ArmorItem {
 
                 if (hasFullSuitOfArmorOn(player)){
                     evaluateArmorEffects(player);
+                    evaluateArmorEffects2(player);
                 }
             }
         }
@@ -40,6 +45,16 @@ public class OsmiumArmorItem extends ArmorItem {
 
     private void evaluateArmorEffects(PlayerEntity player) {
         for (Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_STATUS_EFFECT_MAP.entrySet()){
+            ArmorMaterial mapArmorMaterial = entry.getKey();
+            StatusEffectInstance mapStatusEffect = entry.getValue();
+
+            if (hasCorrectArmorOn(mapArmorMaterial, player)){
+                addStatusEffectForMaterial(player, mapArmorMaterial, mapStatusEffect);
+            }
+        }
+    }
+    private void evaluateArmorEffects2(PlayerEntity player) {
+        for (Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_STATUS_EFFECT_MAP2.entrySet()){
             ArmorMaterial mapArmorMaterial = entry.getKey();
             StatusEffectInstance mapStatusEffect = entry.getValue();
 

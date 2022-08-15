@@ -1,0 +1,16 @@
+{
+  "name": "Osmium Nugget & Ingot",
+  "icon": "miocore:osmium_nugget",
+  "category": "miocore:item_category",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_nugget"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_ingot"
+    }
+  ]
+}

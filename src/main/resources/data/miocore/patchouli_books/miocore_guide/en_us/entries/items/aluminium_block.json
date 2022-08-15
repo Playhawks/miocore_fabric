@@ -1,0 +1,16 @@
+{
+  "name": "Aluminium Block & Raw Item",
+  "icon": "miocore:raw_aluminium",
+  "category": "miocore:item_category",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:aluminium_block"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:raw_aluminium"
+    }
+  ]
+}

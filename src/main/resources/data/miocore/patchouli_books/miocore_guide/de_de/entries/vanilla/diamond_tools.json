@@ -1,0 +1,18 @@
+{
+  "name": "Diamond Tools",
+  "icon": "minecraft:diamond_sword",
+  "category": "miocore:vanilla_category",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+     "recipe": "minecraft:diamond_sword",
+     "recipe2": "minecraft:diamond_pickaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond_shovel",
+      "recipe2": "minecraft:diamond_axe"
+    }
+  ]
+}
