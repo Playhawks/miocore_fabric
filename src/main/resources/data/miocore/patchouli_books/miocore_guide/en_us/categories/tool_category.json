@@ -1,6 +1,6 @@
 {
   "name": "Mod Tools",
-  "description": "Here you can see a list from our Mod Tools",
+  "description": "Here you can see a list of our Mod Tools. $(br2)For more details Click on a listed entry",
   "icon": "miocore:diamond_paxel",
   "sortnum": 4
 }

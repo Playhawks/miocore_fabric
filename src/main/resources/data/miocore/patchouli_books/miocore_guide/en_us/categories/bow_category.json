@@ -1,6 +1,6 @@
 {
   "name": "Mod Bows",
-  "description": "Here you can see a list from our Mod Bows",
+  "description": "Here you can see a list of our Mod Bows. $(br2)For more details Click on a listed entry",
   "icon": "miocore:osmium_bow",
   "sortnum": 6
 }

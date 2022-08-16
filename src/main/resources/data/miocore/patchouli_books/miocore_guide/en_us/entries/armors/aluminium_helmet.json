@@ -6,12 +6,13 @@
   "pages": [
     {
       "type": "patchouli:crafting",
-      "recipe": "miocore:aluminium_helmet"
+      "recipe": "miocore:aluminium_helmet",
+      "text": "$(br)The full armor set effects are: $(br) $(li)$(n)Haste 1 $(li)$(n)Luck 1"
     },
     {
       "type": "patchouli:spotlight",
       "item": "miocore:aluminium_helmet",
-      "text": ""
+      "text": "This armor is a slightly better armor than the iron armor, but has additional Knockback Resistance and Armor Hardness. $(br)In addition, it is part of a set that gives you two effects when wearing full armor."
     }
 
   ]

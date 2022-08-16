@@ -1,6 +1,6 @@
 {
   "name": "Special Blocks",
-  "description": "Here you can see a list from our Special Blocks",
+  "description": "Here you can see a list of our Special Blocks. $(br2)For more details Click on a listed entry",
   "icon": "miocore:miocore_blaster",
   "sortnum": 9
 }

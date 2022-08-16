@@ -7,7 +7,7 @@
     {
       "type": "patchouli:crafting",
       "recipe": "miocore:platinum_axe",
-      "text": ""
+      "text": "$(br2)The Platinum Tools own the same Mining Level as Diamond Tools, but have a bit more durability. $(br2)It has $(l)$(4)2015$() durability."
     },
     {
       "type": "patchouli:crafting",

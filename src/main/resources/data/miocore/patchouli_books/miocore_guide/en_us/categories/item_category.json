@@ -1,6 +1,6 @@
 {
   "name": "Mod Items",
-  "description": "Here you can see a list from our Mod Items",
+  "description": "Here you can see a list of our Mod Items. $(br2)For more details Click on a listed entry",
   "icon": "miocore:uranium_ingot",
   "sortnum": 1
 }

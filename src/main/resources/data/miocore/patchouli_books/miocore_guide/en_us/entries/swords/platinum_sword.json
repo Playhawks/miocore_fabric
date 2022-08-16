@@ -6,12 +6,13 @@
   "pages": [
     {
       "type": "patchouli:crafting",
-      "recipe": "miocore:platinum_sword"
+      "recipe": "miocore:platinum_sword",
+      "text": "$(br2)It has $(l)$(4)2015$() durability and $(l)$(4)22$() Attack Damage."
     },
     {
       "type": "patchouli:spotlight",
       "item": "miocore:platinum_sword",
-      "text": ""
+      "text": "$(br)The Nickel Sword is a better alternative from the Silver Sword. $(br2)It has more Attack Damage und more Durability."
     }
 
   ]

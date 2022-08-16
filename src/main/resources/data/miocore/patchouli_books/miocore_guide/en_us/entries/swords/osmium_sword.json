@@ -6,12 +6,13 @@
   "pages": [
     {
       "type": "patchouli:crafting",
-      "recipe": "miocore:osmium_sword"
+      "recipe": "miocore:osmium_sword",
+      "text": "$(br2)It has $(l)$(4)4062$() durability and $(l)$(4)40$() Attack Damage."
     },
     {
       "type": "patchouli:spotlight",
       "item": "miocore:osmium_sword",
-      "text": ""
+      "text": "$(br)The Nickel Sword is a better alternative from the Diamond Sword. $(br2)It has more Attack Damage und more Durability."
     }
 
   ]

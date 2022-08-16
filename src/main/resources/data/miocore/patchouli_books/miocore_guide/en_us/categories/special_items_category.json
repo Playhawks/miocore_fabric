@@ -1,6 +1,6 @@
 {
   "name": "Special Items",
-  "description": "Here you can see a list from our Special Items",
+  "description": "Here you can see a list of our Special Items. $(br2)For more details Click on a listed entry",
   "icon": "miocore:dowsing_rod",
   "sortnum": 7
 }

@@ -6,12 +6,13 @@
   "pages": [
     {
       "type": "patchouli:crafting",
-      "recipe": "miocore:aluminium_sword"
+      "recipe": "miocore:aluminium_sword",
+      "text": "$(br2)It has $(l)$(4)391$() durability and $(l)$(4)14$() Attack Damage."
     },
     {
       "type": "patchouli:spotlight",
       "item": "miocore:aluminium_sword",
-      "text": ""
+      "text": "$(br)The Nickel Sword is a better alternative from the Lead Sword. $(br2)It has more Attack Damage und more Durability."
     }
 
   ]

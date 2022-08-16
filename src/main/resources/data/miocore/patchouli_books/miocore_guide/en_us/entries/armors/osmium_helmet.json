@@ -6,12 +6,13 @@
   "pages": [
     {
       "type": "patchouli:crafting",
-      "recipe": "miocore:osmium_helmet"
+      "recipe": "miocore:osmium_helmet",
+      "text": "$(br)The full armor set effects are: $(br) $(li)$(n)Haste 2 $(li)$(n)Luck 3"
     },
     {
       "type": "patchouli:spotlight",
       "item": "miocore:osmium_helmet",
-      "text": ""
+      "text": "This armor is a slightly better armor than the netherite armor, but has additional Knockback Resistance and Armor Hardness. $(br2)In addition, it is part of a set that gives you two effects when wearing full armor."
     }
 
   ]

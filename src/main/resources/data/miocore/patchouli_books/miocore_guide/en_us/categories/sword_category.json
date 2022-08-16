@@ -1,6 +1,6 @@
 {
   "name": "Mod Swords",
-  "description": "Here you can see a list from our Mod Swords",
+  "description": "Here you can see a list of our Mod Swords. $(br2)For more details Click on a listed entry",
   "icon": "miocore:platinum_sword",
   "sortnum": 3
 }

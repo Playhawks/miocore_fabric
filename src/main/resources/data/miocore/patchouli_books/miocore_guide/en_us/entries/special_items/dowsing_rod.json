@@ -6,12 +6,13 @@
   "pages": [
     {
       "type": "patchouli:crafting",
-      "recipe": "miocore:dowsing_rod"
+      "recipe": "miocore:dowsing_rod",
+      "text": "$(br2)To use this Item, just $(l)$(4)Right-Click$() on the ground."
     },
     {
       "type": "patchouli:spotlight",
       "item": "miocore:dowsing_rod",
-      "text": ""
+      "text": "With the Dowsing Rod you can find the coordinates of the nearest Ore from all normal Ores and Deepslate Ores. $(br2)The Coordinates will only shown to you in the InGame Chat. $(br2)Excluded our own Netherrack Ores."
     }
 
   ]

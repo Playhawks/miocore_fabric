@@ -1,6 +1,6 @@
 {
   "name": "Vanilla Items",
-  "description": "Here you can see a list of all changed recipes of vanilla items",
+  "description": "Here you can see a list of all changed recipes of vanilla items. $(br2)For more details Click on a listed entry",
   "icon": "minecraft:iron_shovel",
   "sortnum": 0
 }

@@ -7,11 +7,12 @@
     {
       "type": "patchouli:spotlight",
       "item": "miocore:osmium_paxel",
-      "text": ""
+      "text": "The Osmium Paxel is a multi-tool that functions as a shovel, axe and pickaxe. $(br2)It has more Durability and a better Mining Speed is normal Osmium Tools."
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "miocore:osmium_paxel"
+      "recipe": "miocore:osmium_paxel",
+      "text": "$(br2)It has $(l)$(4)6093$() durability and a Mining Speed of $(l)$(4)11$()."
     }
   ]
 }

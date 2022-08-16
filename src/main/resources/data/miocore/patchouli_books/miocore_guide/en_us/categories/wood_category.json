@@ -1,6 +1,6 @@
 {
   "name": "Wood Stuff",
-  "description": "Here you can see a list from our Wood Stuff",
+  "description": "Here you can see a list of our Wood Stuff. $(br2)For more details Click on a listed entry",
   "icon": "miocore:mahagony_log",
   "sortnum": 10
 }

@@ -7,11 +7,12 @@
     {
       "type": "patchouli:spotlight",
       "item": "miocore:platinum_paxel",
-      "text": ""
+      "text": "The Platinum Paxel is a multi-tool that functions as a shovel, axe and pickaxe. $(br2)It has more Durability and a better Mining Speed is normal Platinum Tools."
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "miocore:platinum_paxel"
+      "recipe": "miocore:platinum_paxel",
+      "text": "$(br2)It has $(l)$(4)3022$() durability and a Mining Speed of $(l)$(4)10$()."
     }
   ]
 }

@@ -6,12 +6,13 @@
   "pages": [
     {
       "type": "patchouli:crafting",
-      "recipe": "miocore:miocore_blaster"
+      "recipe": "miocore:miocore_blaster",
+      "text": "$(br2)The Miocore Blaster is the only way to smelt our modded Ores into their Items, if you mine the Ores with $(l)$(4)silk-touch$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "miocore:miocore_blaster",
-      "text": ""
+      "text": "You need a fuel item like our modded coal in the $(l)$(4)left-bottom-slot$(), sand in the $(l)$(4)top-slot$() in the middle and one of our ore in the $(l)$(4)bottom-slot$() in the middle. $(br2)The $(l)$(4)Output Slot$() is at the right side."
     }
 
   ]

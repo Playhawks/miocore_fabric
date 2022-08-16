@@ -6,12 +6,13 @@
   "pages": [
     {
       "type": "patchouli:crafting",
-      "recipe": "miocore:cherry_tree_coal"
+      "recipe": "miocore:cherry_tree_coal",
+      "text": "$(br2)In addition this is $(l)$(4)1$() of $(l)$(4)3$() coal Items which you can use in our Miocore Blaster, where you smelting up to $(l)$(4)238 Items$() per coal item."
     },
     {
       "type": "patchouli:spotlight",
       "item": "miocore:cherry_tree_coal",
-      "text": ""
+      "text": "This is one of the modded coal items, which we have added in this Mod. $(br2)This coal item smelting up to $(l)$(4)32 Items$() in a normal furnace or blasting furnace."
     }
 
   ]

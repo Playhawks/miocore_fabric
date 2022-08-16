@@ -1,6 +1,6 @@
 {
   "name": "Fuel Items",
-  "description": "Here you can see a list from our Fuel Items",
+  "description": "Here you can see a list of our Fuel Items. $(br2)For more details Click on a listed entry",
   "icon": "miocore:cherry_tree_coal",
   "sortnum": 8
 }
