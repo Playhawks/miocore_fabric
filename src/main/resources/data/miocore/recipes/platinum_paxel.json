@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:platinum_shovel"
+      "item": "miocore:platinum_shovel"
     },
     "Y": {
-      "item": "minecraft:platinum_pickaxe"
+      "item": "miocore:platinum_pickaxe"
     },
     "Z": {
-      "item": "minecraft:platinum_axe"
+      "item": "miocore:platinum_axe"
     }
   },
   "result": {

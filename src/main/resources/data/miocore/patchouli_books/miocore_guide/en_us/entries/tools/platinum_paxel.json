@@ -1,0 +1,17 @@
+{
+  "name": "Platinum Paxel",
+  "icon": "miocore:platinum_paxel",
+  "category": "miocore:tool_category",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:platinum_paxel",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:platinum_paxel"
+    }
+  ]
+}

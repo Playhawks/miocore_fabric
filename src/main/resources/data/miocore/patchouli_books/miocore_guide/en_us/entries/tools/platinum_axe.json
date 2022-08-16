@@ -1,0 +1,19 @@
+{
+  "name": "Platinum Axe & Pickaxe",
+  "icon": "miocore:platinum_axe",
+  "category": "miocore:tool_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:platinum_axe",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:platinum_pickaxe",
+      "text": ""
+    }
+
+  ]
+}

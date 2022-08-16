@@ -1,0 +1,18 @@
+{
+  "name": "Aluminium Chestplate",
+  "icon": "miocore:aluminium_chestplate",
+  "category": "miocore:armor_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:aluminium_chestplate"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:aluminium_chestplate",
+      "text": ""
+    }
+
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Osmium Boots",
+  "icon": "miocore:osmium_boots",
+  "category": "miocore:armor_category",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_boots"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_boots",
+      "text": ""
+    }
+
+  ]
+}

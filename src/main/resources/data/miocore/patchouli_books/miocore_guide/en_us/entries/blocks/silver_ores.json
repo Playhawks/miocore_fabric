@@ -1,0 +1,18 @@
+{
+  "name": "Silver Ores",
+  "icon": "miocore:deepslate_silver_ore",
+  "category": "miocore:block_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:silver_ore",
+      "text": "You can find Silver Ore in the Savanne biome at within the +25 to +35 altitude. $(br2) Mineable with $(l)$(4)Diamond mining level$() Tools: $(li)Diamond Pickaxe $(li)Netherite Pickaxe $(li)Platinum Pickaxe $(li)Osmium Pickaxe $(li)All Paxels."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:deepslate_silver_ore",
+      "text": "You can find Deepslate Silver Ore in the Savanne biome at within the -64 to +8 altitude. $(br2) Mineable with $(l)$(4)Diamond mining level$() Tools: $(li)Diamond Pickaxe $(li)Netherite Pickaxe $(li)Platinum Pickaxe $(li)Osmium Pickaxe $(li)All Paxels."
+    }
+  ]
+}

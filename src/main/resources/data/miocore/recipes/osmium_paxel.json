@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:osmium_shovel"
+      "item": "miocore:osmium_shovel"
     },
     "Y": {
-      "item": "minecraft:osmium_pickaxe"
+      "item": "miocore:osmium_pickaxe"
     },
     "Z": {
-      "item": "minecraft:osmium_axe"
+      "item": "miocore:osmium_axe"
     }
   },
   "result": {

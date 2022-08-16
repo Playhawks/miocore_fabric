@@ -1,0 +1,17 @@
+{
+  "name": "Osmium Paxel",
+  "icon": "miocore:osmium_paxel",
+  "category": "miocore:tool_category",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_paxel",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_paxel"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Osmium Leggings",
+  "icon": "miocore:osmium_leggings",
+  "category": "miocore:armor_category",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_leggings"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_leggings",
+      "text": ""
+    }
+
+  ]
+}

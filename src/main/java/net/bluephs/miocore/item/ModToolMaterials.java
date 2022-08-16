@@ -18,7 +18,7 @@ public enum ModToolMaterials implements ToolMaterial {
     OSMIUM(MiningLevels.NETHERITE, 4062, 9.0f, 38.0f, 15, () -> Ingredient.ofItems(ModItems.OSMIUM_INGOT)),
     DIAMONDPAXEL(MiningLevels.DIAMOND, 2341, 9.0F, 3.0F, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
     PLATINUMPAXEL(MiningLevels.DIAMOND, 3022, 10.0F, 20.0F, 14, () -> Ingredient.ofItems(ModItems.PLATINUM_INGOT)),
-    OSMIUMPAXEL(MiningLevels.DIAMOND, 6093, 11.0F, 38.0F, 15, () -> Ingredient.ofItems(ModItems.OSMIUM_INGOT));
+    OSMIUMPAXEL(MiningLevels.NETHERITE, 6093, 11.0F, 38.0F, 15, () -> Ingredient.ofItems(ModItems.OSMIUM_INGOT));
 
 
     private final int miningLevel;

@@ -1,0 +1,18 @@
+{
+  "name": "Lead Ores",
+  "icon": "miocore:deepslate_lead_ore",
+  "category": "miocore:block_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:lead_ore",
+      "text": "You can find Lead Ore in the Plains biome at within the +25 to +45 altitude. $(br2) Mineable with $(l)$(4)Iron mining level$() Tools: $(li)Iron Pickaxe $(li)Diamond Pickaxe $(li)Netherite Pickaxe $(li)Platinum Pickaxe $(li)Osmium Pickaxe $(li)All Paxels."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:deepslate_lead_ore",
+      "text": "You can find Deepslate Lead Ore in the Plains biome at within the -64 to +8 altitude. $(br2) Mineable with $(l)$(4)Iron mining level$() Tools: $(li)Iron Pickaxe $(li)Diamond Pickaxe $(li)Netherite Pickaxe $(li)Platinum Pickaxe $(li)Osmium Pickaxe $(li)All Paxels."
+    }
+  ]
+}

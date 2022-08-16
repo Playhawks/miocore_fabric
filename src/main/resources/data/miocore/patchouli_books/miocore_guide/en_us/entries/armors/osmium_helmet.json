@@ -1,0 +1,18 @@
+{
+  "name": "Osmium Helmet",
+  "icon": "miocore:osmium_helmet",
+  "category": "miocore:armor_category",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_helmet"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_helmet",
+      "text": ""
+    }
+
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Osmium Shovel & Hoe",
+  "icon": "miocore:osmium_shovel",
+  "category": "miocore:tool_category",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_shovel",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_hoe",
+      "text": ""
+    }
+
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Osmium Bow",
+  "icon": "miocore:osmium_bow",
+  "category": "miocore:bow_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_bow"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_bow",
+      "text": ""
+    }
+
+  ]
+}

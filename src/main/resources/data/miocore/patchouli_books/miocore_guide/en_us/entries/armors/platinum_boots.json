@@ -1,0 +1,18 @@
+{
+  "name": "Platinum Boots",
+  "icon": "miocore:platinum_boots",
+  "category": "miocore:armor_category",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:platinum_boots"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:platinum_boots",
+      "text": ""
+    }
+
+  ]
+}

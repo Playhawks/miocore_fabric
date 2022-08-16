@@ -147,15 +147,15 @@ public class ModItems {
     //region Paxel Items
 
     public static final Item DIAMOND_PAXEL = registerItem("diamond_paxel",
-            new ModPaxelItem(ModToolMaterials.DIAMONDPAXEL, 1, 1f,
+            new ModPaxelItem(ModToolMaterials.DIAMONDPAXEL, 4f, 1f,
                     new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.MIO)));
 
     public static final Item PLATINUM_PAXEL = registerItem("platinum_paxel",
-            new ModPaxelItem(ModToolMaterials.PLATINUMPAXEL, 1, 1f,
+            new ModPaxelItem(ModToolMaterials.PLATINUMPAXEL, 2f, 1f,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.MIO)));
 
     public static final Item OSMIUM_PAXEL = registerItem("osmium_paxel",
-            new ModPaxelItem(ModToolMaterials.OSMIUMPAXEL, 1, 1f,
+            new ModPaxelItem(ModToolMaterials.OSMIUMPAXEL, 2f, 1f,
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.MIO)));
 
     //endregion

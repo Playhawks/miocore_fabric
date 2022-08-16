@@ -1,0 +1,17 @@
+{
+  "name": "Diamond Paxel",
+  "icon": "miocore:diamond_paxel",
+  "category": "miocore:tool_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:diamond_paxel",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:diamond_paxel"
+    }
+  ]
+}
