@@ -1,0 +1,17 @@
+{
+  "name": "Ash Tree Planks",
+  "icon": "miocore:ash_tree_planks",
+  "category": "miocore:wood_category",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:ash_tree_planks",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:ash_tree_planks"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Ash Tree Logs",
+  "icon": "miocore:ash_tree_log",
+  "category": "miocore:wood_category",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:ash_tree_log",
+      "text": "Ash Tree Logs can you get through gattering Ash Trees. $(br2)Ash Trees can you find in Forest Biomes."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["miocore:textures/trees/entries/ash_tree.png"],
+      "border": true
+    }
+  ]
+}

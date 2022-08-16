@@ -1,0 +1,17 @@
+{
+  "name": "Mahagony Planks",
+  "icon": "miocore:mahagony_planks",
+  "category": "miocore:wood_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:mahagony_planks",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:mahagony_planks"
+    }
+  ]
+}

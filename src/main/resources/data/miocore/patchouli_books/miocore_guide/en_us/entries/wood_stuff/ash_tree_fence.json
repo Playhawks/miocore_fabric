@@ -1,0 +1,16 @@
+{
+  "name": "Ash tree Fence & Fence Gate",
+  "icon": "miocore:ash_tree_fence",
+  "category": "miocore:wood_category",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:ash_tree_fence"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:ash_tree_fence_gate"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Cherry Tree Planks",
+  "icon": "miocore:cherry_tree_planks",
+  "category": "miocore:wood_category",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:cherry_tree_planks",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:cherry_tree_planks"
+    }
+  ]
+}

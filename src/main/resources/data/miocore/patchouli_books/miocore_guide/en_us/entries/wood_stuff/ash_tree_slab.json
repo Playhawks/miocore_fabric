@@ -1,0 +1,16 @@
+{
+  "name": "Ash TreeSlab & Stairs",
+  "icon": "miocore:ash_tree_stairs",
+  "category": "miocore:wood_category",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:ash_tree_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:ash_tree_stairs"
+    }
+  ]
+}

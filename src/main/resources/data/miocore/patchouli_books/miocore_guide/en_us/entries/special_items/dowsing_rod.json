@@ -1,0 +1,18 @@
+{
+  "name": "Dowsing Rod",
+  "icon": "miocore:dowsing_rod",
+  "category": "miocore:special_items_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:dowsing_rod"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:dowsing_rod",
+      "text": ""
+    }
+
+  ]
+}

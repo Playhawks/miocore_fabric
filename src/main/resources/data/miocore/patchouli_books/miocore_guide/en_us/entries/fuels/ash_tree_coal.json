@@ -1,0 +1,18 @@
+{
+  "name": "Ash Tree Coal",
+  "icon": "miocore:ash_tree_coal",
+  "category": "miocore:fuel_items_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:ash_tree_coal"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:ash_tree_coal",
+      "text": ""
+    }
+
+  ]
+}
