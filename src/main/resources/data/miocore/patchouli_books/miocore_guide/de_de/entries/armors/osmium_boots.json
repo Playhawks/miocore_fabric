@@ -1,0 +1,19 @@
+{
+  "name": "Osmiumschuhe",
+  "icon": "miocore:osmium_boots",
+  "category": "miocore:armor_category",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_boots",
+      "text": "$(br)Die Effekte des kompletten Rüstungssets sind: $(br) $(li)$(n)Eile 2 $(li)$(n)Glück 3"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_boots",
+      "text": "Diese Rüstung ist eine etwas bessere Rüstung als die Netherite-Rüstung, hat aber zusätzlichen Rückstoßwiderstand und Rüstungshärte. $(br2)Außerdem ist es Teil eines Sets, das dir zwei Effekte gibt, wenn du eine volle Rüstung trägst."
+    }
+
+  ]
+}

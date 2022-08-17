@@ -1,0 +1,19 @@
+{
+  "name": "Osmiumschaufel & Hacke",
+  "icon": "miocore:osmium_shovel",
+  "category": "miocore:tool_category",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_shovel",
+      "text": "\n$(br2)Die Osmium-Werkzeuge besitzen das gleiche Mining-Level wie Netherite-Werkzeuge, sind aber etwas haltbarer. $(br2)Es hat $(l)$(4)2015$() Haltbarkeit."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_hoe",
+      "text": ""
+    }
+
+  ]
+}

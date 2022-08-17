@@ -1,0 +1,19 @@
+{
+  "name": "Silberschwert",
+  "icon": "miocore:silver_sword",
+  "category": "miocore:sword_category",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:silver_sword",
+      "text": "\n$(br2)Es hat $(l)$(4)1951$() Haltbarkeit und $(l)$(4)18$() Angriffsschaden."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:silver_sword",
+      "text": "$(br)Das Silberschwert ist eine bessere Alternative zum Diamantschwert. $(br2)Es hat mehr Angriffsschaden und mehr Haltbarkeit."
+    }
+
+  ]
+}

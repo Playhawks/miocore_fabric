@@ -1,0 +1,16 @@
+{
+  "name": "Cherry TreeSlab & Stairs",
+  "icon": "miocore:cherry_tree_stairs",
+  "category": "miocore:wood_category",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:cherry_tree_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:cherry_tree_stairs"
+    }
+  ]
+}

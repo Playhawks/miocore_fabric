@@ -1,0 +1,16 @@
+{
+  "name": "Mahagony Slab & Stairs",
+  "icon": "miocore:mahagony_stairs",
+  "category": "miocore:wood_category",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:mahagony_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:mahagony_stairs"
+    }
+  ]
+}

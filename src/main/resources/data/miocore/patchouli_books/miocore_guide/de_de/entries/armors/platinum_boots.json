@@ -1,0 +1,18 @@
+{
+  "name": "Platinschuhe",
+  "icon": "miocore:platinum_boots",
+  "category": "miocore:armor_category",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:platinum_boots",
+      "text": "$(br)Die Effekte des kompletten Rüstungssets sind: $(br) $(li)$(n)Eile 2 $(li)$(n)Glück 1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:platinum_boots",
+      "text": "Diese Rüstung ist eine etwas bessere Rüstung als die Diamantrüstung, hat aber zusätzliche Rückstoßresistenz und Rüstungshärte. $(br)Außerdem ist es Teil eines Sets, das dir zwei Effekte verleiht, wenn du eine volle Rüstung trägst."
+    }
+  ]
+}

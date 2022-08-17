@@ -1,0 +1,19 @@
+{
+  "name": "Bleischwert",
+  "icon": "miocore:lead_sword",
+  "category": "miocore:sword_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:lead_sword",
+      "text": "$(br2)Es hat $(l)$(4)313$() Haltbarkeit und $(l)$(4)11$() Angriffsschaden."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:lead_sword",
+      "text": "$(br)Das Bleischwert ist eine bessere Alternative zum Eisenschwert. $(br2)Es hat mehr Angriffsschaden und mehr Haltbarkeit."
+    }
+
+  ]
+}

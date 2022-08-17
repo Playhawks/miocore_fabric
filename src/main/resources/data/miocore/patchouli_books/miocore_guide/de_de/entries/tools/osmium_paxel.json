@@ -1,0 +1,18 @@
+{
+  "name": "Osmiummultitool",
+  "icon": "miocore:osmium_paxel",
+  "category": "miocore:tool_category",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_paxel",
+      "text": "Das Osmiummultitool ist ein Multitool, das als Schaufel, Axt und Spitzhacke fungiert. $(br2)Es hat mehr Haltbarkeit und eine bessere Mining-Geschwindigkeit als normale Osmium-Werkzeuge."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_paxel",
+      "text": "$(br2)Es hat eine Haltbarkeit von $(l)$(4)6093$() und eine Abbaugeschwindigkeit von $(l)$(4)11$()."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Aluminiumschwert",
+  "icon": "miocore:aluminium_sword",
+  "category": "miocore:sword_category",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:aluminium_sword",
+      "text": "$(br2)Es hat $(l)$(4)391$() Haltbarkeit und $(l)$(4)14$() Angriffsschaden."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:aluminium_sword",
+      "text": "$(br)Das Aluminiumschwert ist eine bessere Alternative zum Bleischwert. $(br2)Es hat mehr Angriffsschaden und mehr Haltbarkeit."
+    }
+
+  ]
+}

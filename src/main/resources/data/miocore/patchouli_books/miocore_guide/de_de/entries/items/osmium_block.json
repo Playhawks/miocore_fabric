@@ -1,0 +1,16 @@
+{
+  "name": "Osmium Block & Raw Item",
+  "icon": "miocore:raw_osmium",
+  "category": "miocore:item_category",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_block"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:raw_osmium"
+    }
+  ]
+}

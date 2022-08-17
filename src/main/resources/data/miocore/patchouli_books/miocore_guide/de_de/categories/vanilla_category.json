@@ -1,6 +1,6 @@
 {
-  "name": "Vanilla Items",
-  "description": "Hier seht ihr eine Auflistung aller geänderten Rezepte von Vanilla Items",
-  "icon": "minecraft:diamond_sword",
+  "name": "Vanilla-Items",
+  "description": "Hier sehen Sie eine Liste aller geänderten Rezepte von Vanilla-Items. $(br2)Für mehr Details Klicken Sie auf einen gelisteten Eintrag.",
+  "icon": "minecraft:iron_shovel",
   "sortnum": 0
 }

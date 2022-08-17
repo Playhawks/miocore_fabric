@@ -1,0 +1,19 @@
+{
+  "name": "Miocore Blaster",
+  "icon": "miocore:miocore_blaster",
+  "category": "miocore:special_blocks_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:miocore_blaster",
+      "text": "$(br2)Der Miocore-Blaster ist die einzige Möglichkeit, unsere modifizierten Erze in ihre Gegenstände einzuschmelzen, wenn Sie die Erze mit $(l)$(4)silk-touch$() abbauen."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:miocore_blaster",
+      "text": "Du brauchst einen Brennstoff wie unsere modifizierte Kohle im $(l)$(4)linken unteren Slot$(), Sand im $(l)$(4)oberen Slot$() in der Mitte und einen unseres Erzes im $(l)$(4)unteren Slot$() in der Mitte. $(br2)Der $(l)$(4)Output Slot$() ist auf der rechten Seite."
+    }
+
+  ]
+}

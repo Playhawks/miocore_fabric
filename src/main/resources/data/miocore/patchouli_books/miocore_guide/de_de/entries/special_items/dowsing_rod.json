@@ -1,0 +1,19 @@
+{
+  "name": "Wünschelrute",
+  "icon": "miocore:dowsing_rod",
+  "category": "miocore:special_items_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:dowsing_rod",
+      "text": "$(br2)Um diesen Gegenstand zu benutzen, einfach $(l)$(4)Rechtsklick$() auf den Boden."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:dowsing_rod",
+      "text": "Mit der Wünschelrute findet man die Koordinaten des nächstgelegenen Erzes aus allen normalen Erzen und Tiefenschiefererzen. $(br2)Die Koordinaten werden nur dir im InGame Chat angezeigt. $(br2)Ausgenommen unsere eigenen Netherrack-Erze."
+    }
+
+  ]
+}

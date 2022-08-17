@@ -1,0 +1,16 @@
+{
+  "name": "Cherry tree Fence & Fence Gate",
+  "icon": "miocore:cherry_tree_fence",
+  "category": "miocore:wood_category",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:cherry_tree_fence"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:cherry_tree_fence_gate"
+    }
+  ]
+}

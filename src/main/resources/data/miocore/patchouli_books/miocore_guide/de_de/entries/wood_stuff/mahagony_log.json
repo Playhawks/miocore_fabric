@@ -1,0 +1,18 @@
+{
+  "name": "Mahagonistamm",
+  "icon": "miocore:mahagony_log",
+  "category": "miocore:wood_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:mahagony_log",
+      "text": "Mahagoni-Stämme können Sie durch das abbauen von Mahagoni-Bäumen erhalten. $(br2)Mahagonibäume können Sie in Plains-Biom finden."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["miocore:textures/trees/entries/mahagony_tree.png"],
+      "border": true
+    }
+  ]
+}

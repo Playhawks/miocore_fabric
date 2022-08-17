@@ -1,0 +1,19 @@
+{
+  "name": "Platinschwert",
+  "icon": "miocore:platinum_sword",
+  "category": "miocore:sword_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:platinum_sword",
+      "text": "\n$(br2)Es hat $(l)$(4)2015$() Haltbarkeit und $(l)$(4)22$() Angriffsschaden."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:platinum_sword",
+      "text": "\n$(br)Das Platinschwert ist eine bessere Alternative zum Silberschwert. $(br2)Es hat mehr Angriffsschaden und mehr Haltbarkeit."
+    }
+
+  ]
+}

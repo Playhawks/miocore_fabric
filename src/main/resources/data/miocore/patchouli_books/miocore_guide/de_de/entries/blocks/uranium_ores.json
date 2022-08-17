@@ -1,0 +1,18 @@
+{
+  "name": "Uran Erze",
+  "icon": "miocore:deepslate_uranium_ore",
+  "category": "miocore:block_category",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:uranium_ore",
+      "text": "Sie können Uranerz in allen Biomen in einer Höhe von +10 bis +15 finden. $(br2) Abbaubar mit $(l)$(4)Diamant-Mining-Level$() Werkzeuge: $(li)Diamant-Spitzhacke $(li)Netherit-Spitzhacke $(li)Platin-Spitzhacke $(li)Osmium-Spitzhacke $(li)Alle Multitools."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:deepslate_uranium_ore",
+      "text": "Sie können Tiefenschiefer-Uran-Erz in allen Biomen auf einer Höhe von -64 bis +8 finden. $(br2) Abbaubar mit $(l)$(4)Diamant-Mining-Level$() Werkzeuge: $(li)Diamant-Spitzhacke $(li)Netherit-Spitzhacke $(li)Platin-Spitzhacke $(li)Osmium-Spitzhacke $(li)Alle Multitools."
+    }
+  ]
+}

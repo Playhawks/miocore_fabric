@@ -1,0 +1,17 @@
+{
+  "name": "Größere Truhe & Verbessertes Knochenmehl",
+  "icon": "miocore:raw_uranium",
+  "category": "miocore:item_category",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:raw_uranium"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:enhanced_bone_meal",
+      "text": "Auf angewendet Dinge wachsen sofort."
+    }
+  ]
+}

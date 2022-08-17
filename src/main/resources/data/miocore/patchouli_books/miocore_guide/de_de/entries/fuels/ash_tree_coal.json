@@ -1,0 +1,19 @@
+{
+  "name": "Eschenkohle",
+  "icon": "miocore:ash_tree_coal",
+  "category": "miocore:fuel_items_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:ash_tree_coal",
+      "text": "$(br2)Außerdem ist dies $(l)$(4)1$() von $(l)$(4)3$() Kohle-Items, die du in unserem Miocore-Blaster verwenden kannst, wo du bis zu $(l)$(4)238 Items$() pro Kohleartikel schmelzen kannst."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:ash_tree_coal",
+      "text": "Dies ist einer der modifizierten Kohle, die wir in diesem Mod hinzugefügt haben. $(br2)Dieser Brennstoff schmilzt bis zu $(l)$(4)32 Gegenstände$() in einem normalen Ofen oder Hochofen."
+    }
+
+  ]
+}

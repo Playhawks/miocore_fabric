@@ -1,0 +1,16 @@
+{
+  "name": "Cherry Tree Door & Trapdoor",
+  "icon": "miocore:cherry_tree_door",
+  "category": "miocore:wood_category",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:cherry_tree_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:cherry_tree_trapdoor"
+    }
+  ]
+}

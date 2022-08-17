@@ -1,0 +1,16 @@
+{
+  "name": "Mahagony Fence & Fence Gate",
+  "icon": "miocore:mahagony_fence",
+  "category": "miocore:wood_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:mahagony_fence"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:mahagony_fence_gate"
+    }
+  ]
+}

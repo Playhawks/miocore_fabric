@@ -1,0 +1,16 @@
+{
+  "name": "Mahagony Door & Trapdoor",
+  "icon": "miocore:mahagony_door",
+  "category": "miocore:wood_category",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:mahagony_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:mahagony_trapdoor"
+    }
+  ]
+}

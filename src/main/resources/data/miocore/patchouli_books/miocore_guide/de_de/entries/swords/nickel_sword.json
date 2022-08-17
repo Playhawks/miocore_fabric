@@ -1,0 +1,19 @@
+{
+  "name": "Nickelschwert",
+  "icon": "miocore:nickel_sword",
+  "category": "miocore:sword_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:nickel_sword",
+      "text": "$(br2)Es hat $(l)$(4)164$() Haltbarkeit und $(l)$(4)8$() Angriffsschaden."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:nickel_sword",
+      "text": "$(br)Das Nickelschwert ist eine bessere Alternative zum Steinschwert. $(br2)Es hat mehr Angriffsschaden und mehr Haltbarkeit."
+    }
+
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Osmiumaxt & Spitzhacke",
+  "icon": "miocore:osmium_axe",
+  "category": "miocore:tool_category",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_axe",
+      "text": "\n$(br2)Die Osmium-Werkzeuge besitzen das gleiche Mining-Level wie Netherite-Werkzeuge, sind aber etwas haltbarer. $(br2)Es hat $(l)$(4)2015$() Haltbarkeit."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_pickaxe",
+      "text": ""
+    }
+
+  ]
+}

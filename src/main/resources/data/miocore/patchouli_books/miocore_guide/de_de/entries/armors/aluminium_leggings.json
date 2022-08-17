@@ -1,0 +1,19 @@
+{
+  "name": "Aluminiumleggings",
+  "icon": "miocore:aluminium_leggings",
+  "category": "miocore:armor_category",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:aluminium_leggings",
+      "text": "$(br)Die vollständigen Rüstungsset-Effekte sind: $(br) $(li)$(n)Eile 1 $(li)$(n)Glück 1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:aluminium_leggings",
+      "text": "Diese Rüstung ist eine etwas bessere Rüstung als die Eisenrüstung, hat aber zusätzlichen Rückstoßwiderstand und Rüstungshärte. $(br)Außerdem ist sie Teil eines Sets, das dir zwei Effekte verleiht, wenn du eine volle Rüstung trägst."
+    }
+
+  ]
+}

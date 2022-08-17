@@ -1,0 +1,18 @@
+{
+  "name": "Platinmultitool",
+  "icon": "miocore:platinum_paxel",
+  "category": "miocore:tool_category",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:platinum_paxel",
+      "text": "Das Platinmultitool ist ein Multitool, das als Schaufel, Axt und Spitzhacke fungiert. $(br2)Es hat mehr Haltbarkeit und eine bessere Mining-Geschwindigkeit als normale Platintools."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:platinum_paxel",
+      "text": "$(br2)Es hat eine Haltbarkeit von $(l)$(4)3022$() und eine Abbaugeschwindigkeit von $(l)$(4)10$()."
+    }
+  ]
+}

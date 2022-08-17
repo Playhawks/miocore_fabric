@@ -1,0 +1,19 @@
+{
+  "name": "Aluminiumshuhe",
+  "icon": "miocore:aluminium_boots",
+  "category": "miocore:armor_category",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:aluminium_boots",
+      "text": "$(br)Die vollständigen Rüstungsset-Effekte sind: $(br) $(li)$(n)Eile 1 $(li)$(n)Glück 1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:aluminium_boots",
+      "text": "Diese Rüstung ist eine etwas bessere Rüstung als die Eisenrüstung, hat aber zusätzlichen Rückstoßwiderstand und Rüstungshärte. $(br)Außerdem ist sie Teil eines Sets, das dir zwei Effekte verleiht, wenn du eine volle Rüstung trägst."
+    }
+
+  ]
+}

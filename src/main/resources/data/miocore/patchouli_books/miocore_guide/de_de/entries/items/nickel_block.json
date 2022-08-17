@@ -1,0 +1,16 @@
+{
+  "name": "Nickel Block & Raw Item",
+  "icon": "miocore:raw_nickel",
+  "category": "miocore:item_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:nickel_block"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:raw_nickel"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Uranium Ingot & Raw Item",
+  "icon": "miocore:raw_uranium",
+  "category": "miocore:item_category",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:raw_uranium"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:uranium_ingot"
+    }
+  ]
+}

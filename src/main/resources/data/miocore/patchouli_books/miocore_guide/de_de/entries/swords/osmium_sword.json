@@ -1,0 +1,19 @@
+{
+  "name": "Osmiumschwert",
+  "icon": "miocore:osmium_sword",
+  "category": "miocore:sword_category",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_sword",
+      "text": "$(br2)Es hat $(l)$(4)4062$() Haltbarkeit und $(l)$(4)40$() Angriffsschaden."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_sword",
+      "text": "$(br)Das Osmium-Schwert ist eine bessere Alternative zum Netherite-Schwert. $(br2)Es hat mehr Angriffsschaden und mehr Haltbarkeit."
+    }
+
+  ]
+}

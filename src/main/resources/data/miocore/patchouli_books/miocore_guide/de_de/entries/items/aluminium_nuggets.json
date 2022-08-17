@@ -1,0 +1,16 @@
+{
+  "name": "Aluminium Nugget & Ingot",
+  "icon": "miocore:aluminium_nugget",
+  "category": "miocore:item_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:aluminium_nugget"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:aluminium_ingot"
+    }
+  ]
+}

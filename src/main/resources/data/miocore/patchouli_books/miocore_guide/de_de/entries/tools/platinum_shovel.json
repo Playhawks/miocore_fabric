@@ -1,0 +1,19 @@
+{
+  "name": "Platinschaufel & Hacke",
+  "icon": "miocore:platinum_shovel",
+  "category": "miocore:tool_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:platinum_shovel",
+      "text": "$(br2)Die Platinum Tools besitzen das gleiche Mining Level wie Diamond Tools, sind aber etwas langlebiger. $(br2)Es hat $(l)$(4)2015$() Haltbarkeit."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:platinum_hoe",
+      "text": ""
+    }
+
+  ]
+}

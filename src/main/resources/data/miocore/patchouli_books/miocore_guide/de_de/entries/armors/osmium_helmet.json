@@ -1,0 +1,19 @@
+{
+  "name": "Osmiumhelm",
+  "icon": "miocore:osmium_helmet",
+  "category": "miocore:armor_category",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:osmium_helmet",
+      "text": "$(br)Die Effekte des kompletten Rüstungssets sind: $(br) $(li)$(n)Eile 2 $(li)$(n)Glück 3"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:osmium_helmet",
+      "text": "Diese Rüstung ist eine etwas bessere Rüstung als die Netherite-Rüstung, hat aber zusätzlichen Rückstoßwiderstand und Rüstungshärte. $(br2)Außerdem ist es Teil eines Sets, das dir zwei Effekte gibt, wenn du eine volle Rüstung trägst."
+    }
+
+  ]
+}

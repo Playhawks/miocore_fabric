@@ -1,0 +1,16 @@
+{
+  "name": "Ash Tree Door & Trapdoor",
+  "icon": "miocore:ash_tree_door",
+  "category": "miocore:wood_category",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:ash_tree_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:ash_tree_trapdoor"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Platinum Nugget & Ingot",
+  "icon": "miocore:platinum_nugget",
+  "category": "miocore:item_category",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:platinum_nugget"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:platinum_ingot"
+    }
+  ]
+}

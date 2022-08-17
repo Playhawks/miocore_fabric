@@ -1,0 +1,18 @@
+{
+  "name": "Diamantmultitool",
+  "icon": "miocore:diamond_paxel",
+  "category": "miocore:tool_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:diamond_paxel",
+      "text": "Das Diamantmultitool ist ein Multitool, das als Schaufel, Axt und Spitzhacke fungiert. $(br2)Es hat mehr Haltbarkeit und eine bessere Abbaugeschwindigkeit als normale Diamantwerkzeuge."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:diamond_paxel",
+      "text": "$(br2)Es hat eine Haltbarkeit von $(l)$(4)2341$() und eine Abbaugeschwindigkeit von $(l)$(4)9$()."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Platinhelm",
+  "icon": "miocore:platinum_helmet",
+  "category": "miocore:armor_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:platinum_helmet",
+      "text": "$(br)Die Effekte des kompletten Rüstungssets sind: $(br) $(li)$(n)Eile 2 $(li)$(n)Glück 1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:platinum_helmet",
+      "text": "Diese Rüstung ist eine etwas bessere Rüstung als die Diamantrüstung, hat aber zusätzliche Rückstoßresistenz und Rüstungshärte. $(br)Außerdem ist es Teil eines Sets, das dir zwei Effekte verleiht, wenn du eine volle Rüstung trägst."
+    }
+
+  ]
+}
