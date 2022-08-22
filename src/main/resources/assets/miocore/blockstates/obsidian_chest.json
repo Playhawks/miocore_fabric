@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "miocore:block/obsidian_chest"
+    },
+    "facing=east": {
+      "model": "miocore:block/obsidian_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "miocore:block/obsidian_chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "miocore:block/obsidian_chest",
+      "y": 270
+    }
+  }
+}

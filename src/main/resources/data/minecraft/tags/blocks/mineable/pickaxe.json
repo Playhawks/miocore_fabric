@@ -21,6 +21,13 @@
     "miocore:ardite_block",
     "miocore:netherrack_ardite_ore",
     "miocore:osmium_block",
-    "miocore:netherrack_osmium_ore"
+    "miocore:netherrack_osmium_ore",
+    "miocore:copper_chest",
+    "miocore:iron_chest",
+    "miocore:gold_chest",
+    "miocore:diamond_chest",
+    "miocore:emerald_chest",
+    "miocore:obsidian_chest",
+    "miocore:crystal_chest"
   ]
 }

@@ -9,6 +9,9 @@
     "miocore:lead_block",
     "miocore:aluminium_ore",
     "miocore:deepslate_aluminium_ore",
-    "miocore:aluminium_block"
+    "miocore:aluminium_block",
+    "miocore:diamond_chest",
+    "miocore:emerald_chest",
+    "miocore:crystal_chest"
   ]
 }

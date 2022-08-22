@@ -9,6 +9,7 @@
     "miocore:ash_tree_fence_gate",
     "miocore:cherry_tree_button",
     "miocore:cherry_tree_fence",
-    "miocore:cherry_tree_fence_gate"
+    "miocore:cherry_tree_fence_gate",
+    "miocore:christmas_chest"
   ]
 }

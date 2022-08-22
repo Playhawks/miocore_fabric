@@ -8,6 +8,7 @@
     "miocore:silver_ore",
     "miocore:platinum_block",
     "miocore:platinum_ore",
-    "miocore:deepslate_platinum_ore"
+    "miocore:deepslate_platinum_ore",
+    "miocore:obsidian_chest"
   ]
 }

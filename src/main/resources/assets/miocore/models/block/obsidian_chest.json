@@ -1,0 +1,7 @@
+{
+    "parent": "miocore:block/chest_template",
+    "textures": {
+        "0": "miocore:model/obsidian_chest",
+        "particle": "minecraft:block/obsidian"
+    }
+}

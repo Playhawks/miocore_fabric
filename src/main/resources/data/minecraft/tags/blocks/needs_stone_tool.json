@@ -9,6 +9,9 @@
     "miocore:ash_tree_fence",
     "miocore:ash_tree_fence_gate",
     "miocore:cherry_tree_fence",
-    "miocore:cherry_tree_fence_gate"
+    "miocore:cherry_tree_fence_gate",
+    "miocore:copper_chest",
+    "miocore:iron_chest",
+    "miocore:gold_chest"
   ]
 }

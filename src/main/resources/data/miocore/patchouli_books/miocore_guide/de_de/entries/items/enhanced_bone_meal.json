@@ -1,13 +1,9 @@
 {
-  "name": "Größere Truhe & Verbessertes Knochenmehl",
-  "icon": "miocore:raw_uranium",
+  "name": "Verbessertes Knochenmehl",
+  "icon": "miocore:enhanced_bone_meal",
   "category": "miocore:item_category",
   "sortnum": 15,
   "pages": [
-    {
-      "type": "patchouli:spotlight",
-      "item": "miocore:raw_uranium"
-    },
     {
       "type": "patchouli:spotlight",
       "item": "miocore:enhanced_bone_meal",

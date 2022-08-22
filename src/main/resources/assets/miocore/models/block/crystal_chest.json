@@ -1,0 +1,7 @@
+{
+    "parent": "miocore:block/chest_template",
+    "textures": {
+        "0": "miocore:model/crystal_chest",
+        "particle": "minecraft:block/glass"
+    }
+}
