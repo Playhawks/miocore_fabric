@@ -1,0 +1,20 @@
+{
+  "name": "Emerald Upgrades",
+  "icon": "miocore:emerald_crystal_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 13,
+  "pages": [
+    {
+      "title": "Emerald to Crystal",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:emerald_crystal_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Emerald$() to $(l)$(4)Crystal$()."
+    },
+    {
+      "title": "Emerald to Obsidian",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:emerald_obsidian_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Emerald$() to $(l)$(4)Obsidian$()."
+    }
+  ]
+}

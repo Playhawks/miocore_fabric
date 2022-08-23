@@ -1,0 +1,19 @@
+{
+  "name": "Diamond Chest",
+  "icon": "miocore:diamond_chest",
+  "category": "miocore:chest_category",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:diamond_chest",
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:diamond_chest",
+      "text": "$(br)This Chest has a capacity of $(l)$(4)108$() Slots."
+    }
+
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Copper Chest",
+  "icon": "miocore:copper_chest",
+  "category": "miocore:chest_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:copper_chest",
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:copper_chest",
+      "text": "$(br)This Chest has a capacity of $(l)$(4)45$() Slots."
+    }
+
+  ]
+}

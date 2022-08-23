@@ -1,0 +1,20 @@
+{
+  "name": "Iron Upgrades 2",
+  "icon": "miocore:iron_emerald_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 8,
+  "pages": [
+    {
+      "title": "Iron to Emerald",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:iron_emerald_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Iron$() to $(l)$(4)Emerald$()."
+    },
+    {
+      "title": "Iron to Crystal",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:iron_crystal_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Iron$() to $(l)$(4)Crystal$()."
+    }
+  ]
+}

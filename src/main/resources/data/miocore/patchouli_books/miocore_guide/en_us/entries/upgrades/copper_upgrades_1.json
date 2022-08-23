@@ -1,0 +1,20 @@
+{
+  "name": "Copper Upgrades 1",
+  "icon": "miocore:copper_iron_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "title": "Copper to Iron",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:copper_iron_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Copper$() to $(l)$(4)Iron$()."
+    },
+    {
+      "title": "Copper to Gold",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:copper_gold_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Copper$() to $(l)$(4)Gold$()."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Wood Upgrades 2",
+  "icon": "miocore:wood_iron_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "title": "Wood to Iron",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_iron_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Wood$() to $(l)$(4)Iron$()."
+    },
+    {
+      "title": "Wood to Gold",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_gold_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Wood$() to $(l)$(4)Gold$()."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Wood Upgrades 4",
+  "icon": "miocore:wood_crystal_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 3,
+  "pages": [
+    {
+      "title": "Wood to Crystal",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_crystal_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Wood$() to $(l)$(4)Crystal$()."
+    },
+    {
+      "title": "Wood to Obsidian",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_obsidian_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Wood$() to $(l)$(4)Obsidian$()."
+    }
+  ]
+}

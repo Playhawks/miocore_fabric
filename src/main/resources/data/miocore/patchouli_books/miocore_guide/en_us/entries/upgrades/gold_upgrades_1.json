@@ -1,0 +1,20 @@
+{
+  "name": "Gold Upgrades 1",
+  "icon": "miocore:gold_diamond_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 10,
+  "pages": [
+    {
+      "title": "Gold to Diamond",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:gold_diamond_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Gold$() to $(l)$(4)Diamond$()."
+    },
+    {
+      "title": "Gold to Emerald",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:gold_emerald_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Gold$() to $(l)$(4)Emerald$()."
+    }
+  ]
+}

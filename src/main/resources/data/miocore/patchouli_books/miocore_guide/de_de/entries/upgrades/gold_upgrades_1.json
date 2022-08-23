@@ -1,0 +1,20 @@
+{
+  "name": "Gold Upgrades 1",
+  "icon": "miocore:gold_diamond_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 10,
+  "pages": [
+    {
+      "title": "Gold zo Diamand",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:gold_diamond_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Gold $() auf $(l)$(4)Diamand $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    },
+    {
+      "title": "Gold zu Smaragd",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:gold_emerald_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Gold $() auf $(l)$(4)Smaragd $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

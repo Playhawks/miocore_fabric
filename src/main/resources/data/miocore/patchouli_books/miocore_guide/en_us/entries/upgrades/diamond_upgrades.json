@@ -1,0 +1,20 @@
+{
+  "name": "Diamond Upgrades",
+  "icon": "miocore:diamond_crystal_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 12,
+  "pages": [
+    {
+      "title": "Diamond to Crystal",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:diamond_crystal_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Diamond$() to $(l)$(4)Crystal$()."
+    },
+    {
+      "title": "Diamond to Obsidian",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:diamond_obsidian_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Diamond$() to $(l)$(4)Obsidian$()."
+    }
+  ]
+}

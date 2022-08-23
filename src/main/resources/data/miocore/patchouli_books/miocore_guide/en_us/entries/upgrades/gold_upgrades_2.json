@@ -1,0 +1,20 @@
+{
+  "name": "Gold Upgrades 2",
+  "icon": "miocore:gold_crystal_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 11,
+  "pages": [
+    {
+      "title": "Gold to Crystal",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:gold_crystal_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Gold$() to $(l)$(4)Crystal$()."
+    },
+    {
+      "title": "Gold to Obsidian",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:gold_obsidian_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Gold$() to $(l)$(4)Obsidian$()."
+    }
+  ]
+}

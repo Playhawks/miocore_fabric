@@ -1,0 +1,14 @@
+{
+  "name": "Iron Upgrades 3",
+  "icon": "miocore:iron_obsidian_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 9,
+  "pages": [
+    {
+      "title": "Iron to Obsidian",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:iron_obsidian_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Iron$() to $(l)$(4)Obsidian$()."
+    }
+  ]
+}

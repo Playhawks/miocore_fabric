@@ -1,0 +1,20 @@
+{
+  "name": "Eisen Upgrades 1",
+  "icon": "miocore:iron_gold_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 7,
+  "pages": [
+    {
+      "title": "Eisen zu Gold",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:iron_gold_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Eisen $() auf $(l)$(4)Gold $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    },
+    {
+      "title": "Eisen zu Diamand",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:iron_diamond_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Eisen $() auf $(l)$(4)Diamand $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

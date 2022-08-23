@@ -1,0 +1,20 @@
+{
+  "name": "Holz Upgrades 2",
+  "icon": "miocore:wood_iron_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "title": "Holz zu Eisen",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_iron_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Holz $() auf $(l)$(4)Eisen $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    },
+    {
+      "title": "Holz zu Gold",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_gold_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Holz $() auf $(l)$(4)Gold $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

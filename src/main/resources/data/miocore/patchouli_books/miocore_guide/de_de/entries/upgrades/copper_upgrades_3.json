@@ -1,0 +1,20 @@
+{
+  "name": "Kupfer Upgrades 3",
+  "icon": "miocore:copper_crystal_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 6,
+  "pages": [
+    {
+      "title": "Kupfer zu Kristal",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:copper_crystal_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Kupfer $() auf $(l)$(4)Kristal $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    },
+    {
+      "title": "Kupfer zu Obsidian",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:copper_obsidian_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Kupfer $() auf $(l)$(4)Obsidian $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

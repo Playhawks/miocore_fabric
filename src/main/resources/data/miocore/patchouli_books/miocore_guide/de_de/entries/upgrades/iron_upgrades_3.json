@@ -1,0 +1,14 @@
+{
+  "name": "Eisen Upgrades 3",
+  "icon": "miocore:iron_obsidian_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 9,
+  "pages": [
+    {
+      "title": "Eisen zu Obsidian",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:iron_obsidian_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Eisen $() auf $(l)$(4)Obsidian $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

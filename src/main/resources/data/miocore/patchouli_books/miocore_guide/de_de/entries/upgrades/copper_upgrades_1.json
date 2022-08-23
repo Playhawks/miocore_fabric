@@ -1,0 +1,20 @@
+{
+  "name": "Kupfer Upgrades 1",
+  "icon": "miocore:copper_iron_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "title": "Kupfer zu Eisen",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:copper_iron_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Kupfer $() auf $(l)$(4)Eisen $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    },
+    {
+      "title": "Kupfer zu Gold",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:copper_gold_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Kupfer $() auf $(l)$(4)Gold $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

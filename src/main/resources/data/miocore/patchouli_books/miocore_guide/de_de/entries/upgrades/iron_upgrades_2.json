@@ -1,0 +1,20 @@
+{
+  "name": "Eisen Upgrades 2",
+  "icon": "miocore:iron_emerald_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 8,
+  "pages": [
+    {
+      "title": "Eisen zu Smaragd",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:iron_emerald_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Eisen $() auf $(l)$(4)Smaragd $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    },
+    {
+      "title": "Eisen zu Kristal",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:iron_crystal_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Eisen $() auf $(l)$(4)Kristal $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

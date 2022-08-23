@@ -1,0 +1,20 @@
+{
+  "name": "Holz Upgrades 3",
+  "icon": "miocore:wood_diamond_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 2,
+  "pages": [
+    {
+      "title": "Holz zu Diamand",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_diamond_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Holz $() auf $(l)$(4)Diamand $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    },
+    {
+      "title": "Holz zu Smaragd",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_emerald_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Holz $() auf $(l)$(4)Smaragd $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

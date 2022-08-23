@@ -1,0 +1,20 @@
+{
+  "name": "Wood Upgrades 1",
+  "icon": "miocore:wood_christmas_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "title": "Wood to Christmas",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_christmas_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Wood$() to $(l)$(4)Christmas$()."
+    },
+    {
+      "title": "Wood to Copper",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_copper_upgrade",
+      "text": "$(br2)This is a Item to Upgrade a Chest from $(l)$(4)Wood$() to $(l)$(4)Copper$()."
+    }
+  ]
+}

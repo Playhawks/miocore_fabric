@@ -1,0 +1,20 @@
+{
+  "name": "Smaragd Upgrades",
+  "icon": "miocore:emerald_crystal_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 13,
+  "pages": [
+    {
+      "title": "Smaragd zu Kristal",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:emerald_crystal_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Smaragd $() auf $(l)$(4)Kristal $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    },
+    {
+      "title": "Smaragd zu Obsidian",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:emerald_obsidian_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Smaragd $() auf $(l)$(4)Obsidian $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

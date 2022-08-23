@@ -1,0 +1,20 @@
+{
+  "name": "Diamand Upgrades",
+  "icon": "miocore:diamond_crystal_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 12,
+  "pages": [
+    {
+      "title": "Diamand zu Crystal",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:diamond_crystal_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Diamond $() auf $(l)$(4)Kristal $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    },
+    {
+      "title": "Diamand zu Obsidian",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:diamond_obsidian_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Diamand $() auf $(l)$(4)Obsidian $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

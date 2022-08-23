@@ -1,0 +1,20 @@
+{
+  "name": "Holz Upgrades 1",
+  "icon": "miocore:wood_christmas_upgrade",
+  "category": "miocore:upgrades_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "title": "Holz zu Weihnachts",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_christmas_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Holz $() auf $(l)$(4)Weihnachts $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    },
+    {
+      "title": "Holz zu Kupfer",
+      "type": "patchouli:crafting",
+      "recipe": "miocore:wood_copper_upgrade",
+      "text": "Dies ist ein Gegenstand, um eine Truhe von $(l)$(4)Holz $() auf $(l)$(4)Kupfer $() aufzurüsten.$(br2)Um diesen Gegenstand zu verwenden, Sneaken und Rechtsklick auf die Truhe."
+    }
+  ]
+}

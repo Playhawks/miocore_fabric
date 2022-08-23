@@ -1,0 +1,19 @@
+{
+  "name": "Iron Chest",
+  "icon": "miocore:iron_chest",
+  "category": "miocore:chest_category",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "miocore:iron_chest",
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "miocore:iron_chest",
+      "text": "$(br)This Chest has a capacity of $(l)$(4)54$() Slots."
+    }
+
+  ]
+}
